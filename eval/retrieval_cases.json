@@ -1,0 +1,19 @@
+[
+  {"question": "How much did each Apple product category sell in fiscal 2024?", "ticker": "AAPL", "year": 2024, "must_contain": "net sales by category"},
+  {"question": "What were Apple's sales in China in 2023?", "ticker": "AAPL", "year": 2023, "must_contain": "Greater China"},
+  {"question": "Does Apple rely on a few suppliers for its components? (2022)", "ticker": "AAPL", "year": 2022, "must_contain": "single or limited sources"},
+  {"question": "Apple revenue by geography in fiscal 2025", "ticker": "AAPL", "year": 2025, "must_contain": "Segment Information and Geographic Data"},
+  {"question": "Amazon operating profit by business segment in 2024", "ticker": "AMZN", "year": 2024, "must_contain": "Operating income (loss) by segment"},
+  {"question": "How fast did Amazon's cloud business grow in 2023?", "ticker": "AMZN", "year": 2023, "must_contain": "AWS sales increased"},
+  {"question": "How much did Amazon spend on capex in 2025?", "ticker": "AMZN", "year": 2025, "must_contain": "cash capital expenditures"},
+  {"question": "What did NVIDIA say about US restrictions on selling chips to China in fiscal 2024?", "ticker": "NVDA", "year": 2024, "must_contain": "export control"},
+  {"question": "Which customers accounted for more than 10% of NVIDIA revenue in fiscal 2025?", "ticker": "NVDA", "year": 2025, "must_contain": "Direct Customer A"},
+  {"question": "Who manufactures NVIDIA's chips? (fiscal 2022)", "ticker": "NVDA", "year": 2022, "must_contain": "Taiwan Semiconductor Manufacturing"},
+  {"question": "NVIDIA data center revenue growth in fiscal 2024", "ticker": "NVDA", "year": 2024, "must_contain": "Data Center revenue for fiscal year 2024"},
+  {"question": "Did NVIDIA face supply shortages in fiscal 2023?", "ticker": "NVDA", "year": 2023, "must_contain": "supply constraints"},
+  {"question": "How much did Microsoft's Azure grow in fiscal 2024?", "ticker": "MSFT", "year": 2024, "must_contain": "Azure and other cloud services revenue"},
+  {"question": "Microsoft spending on property and equipment in fiscal 2025", "ticker": "MSFT", "year": 2025, "must_contain": "Additions to property and equipment"},
+  {"question": "What AI-related risks did Microsoft disclose in 2023?", "ticker": "MSFT", "year": 2023, "must_contain": "Issues in the development and use of AI"},
+  {"question": "How did YouTube advertising revenue change at Alphabet in 2025?", "ticker": "GOOGL", "year": 2025, "must_contain": "YouTube ads revenues increased"},
+  {"question": "Was Google Cloud profitable in 2023?", "ticker": "GOOGL", "year": 2023, "must_contain": "Google Cloud operating income"}
+]

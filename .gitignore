@@ -5,4 +5,4 @@ __pycache__/
 data/raw/
 data/processed/
 .DS_Store
-CLAUDE.md
+claude.md
