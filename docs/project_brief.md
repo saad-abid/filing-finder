@@ -72,8 +72,8 @@ A wrong but confident answer is worse than no answer.
 |---|---|---|
 | 1 | Download filings from EDGAR | Done |
 | 2 | Parse into page-aware, section-tagged chunks | Done |
-| 3 | Embeddings, Postgres + pgvector, hybrid retrieval | In progress |
-| 4 | Cited answer generation with a "not found" path | Planned |
+| 3 | Embeddings, Postgres + pgvector, hybrid retrieval | Done |
+| 4 | Cited answer generation with a "not found" path | Next |
 | 5 | Evaluation: citation accuracy and correct refusals | Planned |
 | 6 | Web app: chat UI, email login, saved history | Planned |
 | 7 | Docker, deployment, README | Planned |
