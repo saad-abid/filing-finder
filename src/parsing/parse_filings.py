@@ -75,9 +75,16 @@ def html_to_pages(html):
 
 
 def printed_page_number(lines):
-    """Try to read the page number printed at the bottom of the page."""
+    """Try to read the page number printed at the bottom of the page.
+
+    Accepts a bare footer ("39" or "39.") or a pipe footer that names the
+    form ("Apple Inc. | 2024 Form 10-K | 23"). Table rows ending in a
+    number ("Total | 214") are ignored.
+    """
     for line in reversed(lines[-3:]):
-        m = re.search(r"(?:^|\|\s*)(\d{1,3})$", line)
+        m = re.fullmatch(r"(\d{1,3})\.?", line)
+        if not m and "10-K" in line:
+            m = re.search(r"\|\s*(\d{1,3})$", line)
         if m:
             return m.group(1)
     return None
@@ -89,9 +96,11 @@ def parse_filing(meta):
     chunks, section = [], "Front matter"
 
     for page_no, lines in enumerate(pages, start=1):
-        printed = printed_page_number(lines)
         hits = sum(1 for l in lines if len(l) < 150 and ITEM_RE.match(l))
-        is_toc = hits >= 6          # table-of-contents page
+        # table-of-contents page; only possible before Item 1 starts, so a
+        # later page listing Items 10-14 (Part III) keeps its real sections
+        is_toc = hits >= 6 and section == "Front matter"
+        printed = None if is_toc else printed_page_number(lines)
         buf, size, n = [], 0, 0
         buf_section = "Table of Contents" if is_toc else section
 
