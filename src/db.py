@@ -16,7 +16,11 @@ def connect(with_vector=True):
     url = os.environ.get("DATABASE_URL")
     if not url:
         raise SystemExit("DATABASE_URL is missing. Copy it from .env.example into .env.")
-    conn = psycopg.connect(url)
+    try:
+        conn = psycopg.connect(url, connect_timeout=10)
+    except psycopg.OperationalError as e:
+        raise SystemExit(f"Can't reach the database ({e}).\n"
+                         "Is Docker Desktop running? Try: docker compose up -d")
     if with_vector:
         register_vector(conn)
     return conn
