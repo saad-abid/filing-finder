@@ -19,8 +19,9 @@ CREATE TABLE IF NOT EXISTS chunks (
     printed_page            integer,           -- page number printed on the filing
     text                    text    NOT NULL,  -- original passage, shown to analysts
     search_text             text    NOT NULL,  -- text minus headers/footers, used for search
-    embedding               vector(768),       -- meaning search (nomic-embed-text-v1.5)
+    embedding               vector(768),       -- meaning search (nomic-ai/modernbert-embed-base)
     embedding_model         text,
+    embed_input_hash        text,              -- fingerprint of what was embedded; change => re-embed
     tsv                     tsvector GENERATED ALWAYS AS
                                 (to_tsvector('english', search_text)) STORED  -- keyword search
 );
