@@ -25,8 +25,7 @@ An analyst can:
 1. Ask questions in plain English about any filing in the corpus.
 2. Get an answer that cites the specific filing and page.
 3. Click a citation to see the underlying passage.
-4. Log in from a browser with their firm email address.
-5. See their own past conversations.
+4. Use it from a simple chat page in the browser.
 
 ## 4. Trust rules (the most important section)
 
@@ -64,7 +63,7 @@ A wrong but confident answer is worse than no answer.
 2. **Parse and chunk:** split each filing into small passages tagged with company, year, section and page.
 3. **Index:** store embeddings plus keyword search data in Postgres with pgvector.
 4. **Retrieve:** hybrid search (meaning plus keywords), filtered by company, year and section. Questions that span several companies or years pull passages from each.
-5. **Generate:** Ollama (local) or Claude answers only from the retrieved passages, with citations, or says "not found".
+5. **Generate:** Ollama (local)  answers only from the retrieved passages, with citations, or says "not found".
 
 ## 8. Build phases
 
@@ -73,16 +72,16 @@ A wrong but confident answer is worse than no answer.
 | 1 | Download filings from EDGAR | Done |
 | 2 | Parse into page-aware, section-tagged chunks | Done |
 | 3 | Embeddings, Postgres + pgvector, hybrid retrieval | Done |
-| 4 | Cited answer generation with a "not found" path | Next |
+| 4 | Cited answer generation with a "not found" path | In progress |
 | 5 | Evaluation: citation accuracy and correct refusals | Planned |
-| 6 | Web app: chat UI, email login, saved history | Planned |
-| 7 | Docker, deployment, README | Planned |
+| 6 | User interface: simple chat web app (ask a question, see the cited answer, click to view the passage) | Planned |
+| 7 | Simple deployment and README | Planned |
 
 ## 9. Constraints
 
 - About 40 analysts plus a few partners
-- Login with firm email addresses (no SSO)
-- Must run on a small or medium cloud footprint, with no infrastructure team to maintain it
+- Keep it simple: a basic chat web app, no user accounts or login, no saved conversation history
+- Deployment must be simple to set up and run, with no infrastructure team to maintain it
 - Free local development (Docker); paid services only with approval
 
 ## 10. Out of scope
