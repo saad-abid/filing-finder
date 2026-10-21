@@ -65,8 +65,8 @@ A wrong but confident answer is worse than no answer.
 | 1 | Download filings from EDGAR | Done |
 | 2 | Split into page-aware, section-tagged passages | Done |
 | 3 | Embeddings, Postgres + pgvector, hybrid search | Done |
-| 4 | Cited answers with a local model and a safety check | In progress |
-| 5 | Evaluation: are the answers and citations correct? | Planned |
+| 4 | Cited answers with a local model and a safety check | Done |
+| 5 | Evaluation: are the answers and citations correct? | Next |
 | 6 | User interface: simple chat web app (React) | Planned |
 | 7 | Simple deployment and README | Planned |
 
