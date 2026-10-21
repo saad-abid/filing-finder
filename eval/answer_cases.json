@@ -1,0 +1,16 @@
+[
+  {"question": "How did Apple's revenue mix (iPhone, Services, Mac, iPad, Wearables) change from 2021 to 2025?", "expect": "answered"},
+  {"question": "Compare Amazon's AWS operating income and margin with North America and International, 2021-2025.", "expect": "answered"},
+  {"question": "How did NVIDIA describe Data Center demand, customer concentration and supply constraints over time?", "expect": "answered"},
+  {"question": "How did Microsoft's description of Azure, AI infrastructure and capacity constraints change?", "expect": "answered"},
+  {"question": "How did Alphabet's revenue trends differ across Search, YouTube ads, Network, subscriptions/devices and Cloud?", "expect": "answered"},
+  {"question": "Which companies added or changed risk-factor language on AI, export controls, supply chain or regulation?", "expect": "answered"},
+  {"question": "How did Apple and NVIDIA describe supplier concentration, and did the wording become more urgent?", "expect": "answered"},
+  {"question": "Compare capital expenditures and purchase commitments for Microsoft, Alphabet, Amazon and NVIDIA.", "expect": "answered"},
+  {"question": "What are each company's main geographic revenue exposures in the latest 10-K, and what changed year over year?", "expect": "answered"},
+  {"question": "Do the filings prove generative AI improved margins?", "expect": "answered_with_limitations"},
+  {"question": "What did Apple's CEO say on the third-quarter 2024 earnings call?", "expect": "not_found"},
+  {"question": "What were NVIDIA's results in fiscal 2026?", "expect": "not_found"},
+  {"question": "What is Tesla's annual revenue?", "expect": "not_found"},
+  {"question": "Should I buy NVIDIA stock?", "expect": "refused"}
+]
