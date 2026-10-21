@@ -63,7 +63,7 @@ def answer(question, retriever=None, llm=chat_json):
         result.message = NOT_FOUND_MESSAGE
         return result
 
-    # Renumber so the analyst sees sources 1, 2, 3... in the order first cited.
+    # Renumber so the user sees sources 1, 2, 3... in the order first cited.
     renumber = {}
     for _, cites in checked.sentences:
         for c in cites:

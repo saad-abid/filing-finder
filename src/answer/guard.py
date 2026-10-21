@@ -1,5 +1,5 @@
 """Safety rules around the model: refuse out-of-scope questions, and check
-every sentence of an answer before an analyst sees it.
+every sentence of an answer before the user sees it.
 
 A wrong confident answer is worse than "not found", so anything that can't be
 traced back to a cited passage is removed.

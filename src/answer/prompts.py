@@ -11,7 +11,7 @@ SINGLE_GROUP_PASSAGES = 8    # e.g. "Apple 2024 ..." (one company, one year)
 MAX_PASSAGE_CHARS = 1800
 MIN_PASSAGE_CHARS = 600
 
-SYSTEM_PROMPT = """You answer questions from analysts at an investment research firm.
+SYSTEM_PROMPT = """You answer questions about companies' SEC 10-K filings.
 Use ONLY the numbered SEC 10-K passages you are given.
 
 Rules:
