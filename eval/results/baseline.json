@@ -1,0 +1,600 @@
+[
+ {
+  "number": 1,
+  "question": "How did Apple's revenue mix (iPhone, Services, Mac, iPad, Wearables) change from 2021 to 2025?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "From 2021 to 2025, iPhone revenue increased from $191,973 million to $209,586 million.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "From 2021 to 2025, Mac revenue increased from $35,190 million to $33,708 million.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "From 2021 to 2025, iPad revenue decreased from $31,862 million to $28,023 million.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "From 2021 to 2025, Wearables, Home and Accessories revenue decreased from $38,367 million to $35,686 million.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "From 2021 to 2025, Services revenue increased from $68,425 million to $109,158 million.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "The filings do not provide a specific breakdown of the revenue mix percentages for each category across all five years simultaneously; they only show year-over-year changes and total net sales.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2022-09-24_p023_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2023-09-30_p024_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2024-09-28_p025_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "The filings state that the fiscal year ends on the last Saturday of September for each reported period.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Business",
+      "printed_page": 1,
+      "chunk_id": "AAPL_2022-09-24_p003_2"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Business",
+      "printed_page": 1,
+      "chunk_id": "AAPL_2023-09-30_p003_2"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Business",
+      "printed_page": 1,
+      "chunk_id": "AAPL_2024-09-28_p003_2"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Business",
+      "printed_page": 1,
+      "chunk_id": "AAPL_2025-09-27_p003_2"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages contain data for Fiscal Years 2021 through 2025. There is no information regarding revenue mix changes for any period beyond 2025.",
+  "dropped": [],
+  "model": "qwen3.5:4b",
+  "seconds_model": 364,
+  "prompt_tokens": 5219
+ },
+ {
+  "number": 2,
+  "question": "Compare Amazon's AWS operating income and margin with North America and International, 2021-2025.",
+  "expect": "answered",
+  "got": "answered",
+  "sentences": [
+   {
+    "text": "For the year ended December 31, 2021, AWS reported an operating income of $18,532 million compared to North America's $7,271 million and International's loss of $(924) million.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2021-12-31_p024_1"
+     }
+    ]
+   },
+   {
+    "text": "For the year ended December 31, 2022, AWS reported an operating income of $22,841 million compared to North America's loss of $(2,847) million and International's loss of $(7,746) million.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 25,
+      "chunk_id": "AMZN_2023-12-31_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "For the year ended December 31, 2023, AWS reported an operating income of $24,631 million compared to North America's $14,877 million and International's loss of $(2,656) million.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 25,
+      "chunk_id": "AMZN_2023-12-31_p025_1"
+     }
+    ]
+   },
+   {
+    "text": "For the year ended December 31, 2024, AWS reported an operating income of $39,834 million compared to North America's $24,967 million and International's $3,792 million.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 68,
+      "chunk_id": "AMZN_2025-12-31_p068_1"
+     }
+    ]
+   },
+   {
+    "text": "For the year ended December 31, 2025, AWS reported an operating income of $45,606 million compared to North America's $29,619 million and International's $4,750 million.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 68,
+      "chunk_id": "AMZN_2025-12-31_p068_1"
+     }
+    ]
+   }
+  ],
+  "limitations": "",
+  "dropped": [
+   {
+    "text": "The filings do not provide operating margin percentages for any segment or year; they only report absolute operating income figures in millions of dollars.",
+    "reason": "no valid citation"
+   },
+   {
+    "text": "Limitations: The provided passages contain data through the year ended December 31, 2025. There is no information available for any year beyond 2025.",
+    "reason": "no valid citation"
+   }
+  ],
+  "model": "qwen3.5:4b",
+  "seconds_model": 271,
+  "prompt_tokens": 4231
+ },
+ {
+  "number": 5,
+  "question": "How did Alphabet's revenue trends differ across Search, YouTube ads, Network, subscriptions/devices and Cloud?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "Google advertising revenue from Search & other increased $23.1 billion from FY2023 to FY2024, while YouTube ads revenue increased $4.6 billion over the same period.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 36,
+      "chunk_id": "GOOGL_2024-12-31_p037_1"
+     }
+    ]
+   },
+   {
+    "text": "Google Network revenues decreased $953 million from FY2023 to FY2024, primarily driven by a decrease in Google Ad Manager and AdMob revenues.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 36,
+      "chunk_id": "GOOGL_2024-12-31_p037_1"
+     }
+    ]
+   },
+   {
+    "text": "Google subscriptions, platforms, and devices revenues increased $7.7 billion from FY2024 to FY2025, primarily driven by an increase in subscription revenues from YouTube services and Google One.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 34,
+      "chunk_id": "GOOGL_2025-12-31_p035_1"
+     }
+    ]
+   },
+   {
+    "text": "Google Cloud revenues increased $15.5 billion from FY2024 to FY2025, primarily driven by growth in Google Cloud Platform from infrastructure and platform services.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 34,
+      "chunk_id": "GOOGL_2025-12-31_p035_1"
+     }
+    ]
+   },
+   {
+    "text": "FY2021 and FY2022 filings do not contain specific revenue trend data for Search, YouTube ads, Network, subscriptions/devices, or Cloud compared to other years.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 30,
+      "chunk_id": "GOOGL_2021-12-31_p031_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2022,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 53,
+      "chunk_id": "GOOGL_2022-12-31_p054_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2021,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 55,
+      "chunk_id": "GOOGL_2021-12-31_p056_1"
+     }
+    ]
+   },
+   {
+    "text": "FY2023 filings provide specific dollar growth figures for Search & other ($23.1 billion) and YouTube ads ($4.6 billion) but do not explicitly state the FY2023 revenue trend direction for Network, subscriptions/devices, or Cloud relative to prior years in the same manner as later filings.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 36,
+      "chunk_id": "GOOGL_2024-12-31_p037_1"
+     }
+    ]
+   },
+   {
+    "text": "The filings define Google Cloud revenues as consisting of Google Cloud Platform, Google Workspace, and other enterprise services, but do not provide specific dollar growth trends for FY2021 or FY2022.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2022,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 53,
+      "chunk_id": "GOOGL_2022-12-31_p054_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2023,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 57,
+      "chunk_id": "GOOGL_2023-12-31_p058_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2021,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 55,
+      "chunk_id": "GOOGL_2021-12-31_p056_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 32,
+      "chunk_id": "GOOGL_2023-12-31_p033_1"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages contain specific revenue trend data only for the periods from FY2023 to FY2024 and FY2024 to FY2025. There is no explicit dollar growth or trend data for FY2021, FY2022, or FY2023 compared to their own prior years in the text provided.",
+  "dropped": [],
+  "model": "qwen3.5:4b",
+  "seconds_model": 277,
+  "prompt_tokens": 3573
+ },
+ {
+  "number": 9,
+  "question": "What are each company's main geographic revenue exposures in the latest 10-K, and what changed year over year?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "Apple's geographic net sales for fiscal year 2025 were $178,353 million in the Americas, $111,032 million in Europe, $64,377 million in Greater China, $28,703 million in Japan, and $33,696 million in the Rest of Asia Pacific.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 47,
+      "chunk_id": "AAPL_2025-09-27_p049_1"
+     }
+    ]
+   },
+   {
+    "text": "The provided passages do not contain specific geographic revenue data for fiscal year 2024; they only describe how Apple defines its geographic segments based on customer location and retail store locations.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 47,
+      "chunk_id": "AAPL_2025-09-27_p049_1"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 46,
+      "chunk_id": "AAPL_2024-09-28_p048_2"
+     }
+    ]
+   },
+   {
+    "text": "Apple's fiscal year 2025 data shows net sales of $307,394 million in EMEA (Europe, Middle East, Africa), $51,514 million in APAC (Asia-Pacific), and $18,320 million in Other Americas.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1"
+     }
+    ]
+   },
+   {
+    "text": "The provided passages do not contain specific geographic revenue data for Apple's fiscal year 2024; they only describe how Alphabet defines its regions and the concept of constant currency revenues.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 37,
+      "chunk_id": "GOOGL_2024-12-31_p038_1"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's revenue based on customer billing location was $61,257 million in the United States for fiscal year 2025, compared to $26,966 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's revenue based on customer billing location was $26,966 million in the United States for fiscal year 2024, compared to $8,292 million in fiscal year 2023.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's revenue from sales to customers outside the United States accounted for 53% of total revenue in fiscal year 2025, 56% in fiscal year 2024, and 69% in fiscal year 2023.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1"
+     },
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1"
+     }
+    ]
+   },
+   {
+    "text": "The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1"
+     },
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1"
+     }
+    ]
+   },
+   {
+    "text": "The provided passages do not contain specific geographic revenue data for Alphabet's fiscal year 2024; they only describe the regions used (EMEA, APAC, Other Americas) and the calculation of constant currency revenues.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 37,
+      "chunk_id": "GOOGL_2024-12-31_p038_1"
+     }
+    ]
+   },
+   {
+    "text": "The provided passages do not contain specific geographic revenue data for Microsoft; they only describe how revenue is recognized upon transfer of control and the nature of on-premises software licenses.",
+    "sources": [
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 56,
+      "chunk_id": "MSFT_2025-06-30_p056_1"
+     },
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 62,
+      "chunk_id": "MSFT_2024-06-30_p062_1"
+     }
+    ]
+   },
+   {
+    "text": "The provided passages do not contain specific geographic revenue data for Amazon; they only describe unearned revenue related to AWS services and Amazon Prime memberships.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 51,
+      "chunk_id": "AMZN_2025-12-31_p051_1"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 50,
+      "chunk_id": "AMZN_2024-12-31_p050_1"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages do not contain specific numeric geographic revenue data for Apple's fiscal year 2024, Alphabet's fiscal year 2024, Microsoft, or Amazon. The passages for Apple and Alphabet describe the regions used but lack the corresponding sales figures for FY2024. Similarly, no passages provide geographic breakdowns for Microsoft or Amazon.",
+  "dropped": [
+   {
+    "text": "Apple's geographic net sales for fiscal year 2024 were $178,353 million in the Americas, $111,032 million in Europe, $64,377 million in Greater China, $28,703 million in Japan, and $33,696 million in the Rest of Asia Pacific.",
+    "reason": "numbers not in cited passage: 111032, 178353, 28703, 33696, 64377"
+   },
+   {
+    "text": "Apple's fiscal year 2024 data shows net sales of $307,394 million in EMEA, $51,514 million in APAC, and $18,320 million in Other Americas.",
+    "reason": "numbers not in cited passage: 2024"
+   }
+  ],
+  "model": "qwen3.5:4b",
+  "seconds_model": 412,
+  "prompt_tokens": 4175
+ }
+]

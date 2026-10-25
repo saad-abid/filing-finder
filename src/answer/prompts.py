@@ -19,6 +19,11 @@ Rules:
 2. Every sentence must list the numbers of the passages that support it in "citations".
 3. Copy numbers exactly as written in the passages, with units ("$201,183 million", "13%").
    Do not round, convert or calculate new numbers.
+   For a number from a table, name its row label and the year from its column header,
+   exactly as the table shows them. Never reuse one year's figures for another year.
+   Say "increased" only if the later figure is larger, "decreased" only if it is smaller.
+   Do not say a company "added", "removed" or "introduced" something; instead state
+   what each year's filing says.
 4. If the passages say anything relevant, answer with what they DO say, even if
    it is only part of the answer. Put what the passages do not cover in "limitations".
 5. Only if no passage is relevant at all, return an empty "sentences" list.
@@ -98,7 +103,15 @@ def trim_passage(text, words, max_chars):
         if not grew:
             break
     kept = "\n".join(lines[lo:hi + 1])[:max_chars]
-    return ("…" if lo > 0 else "") + kept + ("…" if hi < len(lines) - 1 else "")
+    # If the window starts inside a table, keep the table's first line (its column
+    # headers, usually the years). Without it the model can't tell which column is
+    # which year, and mislabels figures.
+    top = lo
+    while top > 0 and " | " in lines[top - 1]:
+        top -= 1
+    header = lines[top] + "\n…" if top < lo and " | " in lines[lo] else ""
+    return ("…" if top > 0 or (lo > 0 and not header) else "") + header + kept + \
+        ("…" if hi < len(lines) - 1 else "")
 
 
 def passage_header(p):

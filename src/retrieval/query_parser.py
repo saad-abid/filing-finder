@@ -66,6 +66,18 @@ EDGE_WORDS_RE = re.compile(
     r"|(?:[\s,]*\b(?:and|or|the|of|in|for|are|is|with|from|to|on|about))+$", re.I)
 
 
+# Questions use everyday words; filing tables use their own labels. When a
+# question mentions one of these concepts, the filing's words are added to the
+# search text (query expansion), so search and passage trimming find the table.
+# Keep this list short and test every entry on real questions: expanding
+# "capital expenditures" with "property and equipment" pulled in accounting-policy
+# text instead of the spending figures, so that entry was removed.
+EXPANSIONS = {
+    "geograph": "revenue by geographic area net sales attributed to countries United States region",
+    "capex": "capital expenditures",
+}
+
+
 @dataclass
 class QueryFilters:
     tickers: list = field(default_factory=list)       # [] = all companies
@@ -113,7 +125,9 @@ def search_text(question):
     q = re.sub(r"\s+([?.])", r"\1", q)
     for _ in range(3):   # trim dangling connector words left behind at either end
         q = EDGE_WORDS_RE.sub("", q.strip(" ,?.")).strip(" ,?.")
-    return q if len(q) >= 3 else question
+    q = q if len(q) >= 3 else question
+    extra = [words for key, words in EXPANSIONS.items() if key in question.lower()]
+    return " ".join([q] + extra)
 
 
 def parse_query(question):

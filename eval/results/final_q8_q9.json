@@ -1,0 +1,364 @@
+[
+ {
+  "number": 8,
+  "question": "Compare capital expenditures and purchase commitments for Microsoft, Alphabet, Amazon and NVIDIA.",
+  "expect": "answered",
+  "got": "not_found",
+  "sentences": [],
+  "limitations": "The provided passages do not contain specific capital expenditure or purchase commitment figures for Microsoft, Alphabet, Amazon, or NVIDIA that allow for a direct comparison of these metrics across the companies. The available text focuses on accounting policies (e.g., depreciation methods, inventory costing), lease liabilities, accrued expenses, and transition tax obligations rather than comparative spending data.",
+  "dropped": [],
+  "model": "qwen3.5:4b",
+  "seconds_model": 158,
+  "prompt_tokens": 3952
+ },
+ {
+  "number": 9,
+  "question": "What are each company's main geographic revenue exposures in the latest 10-K, and what changed year over year?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "Apple reported that Americas net sales increased during fiscal year 2024 compared to 2023 primarily due to higher net sales of Services.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2024-09-28_p024_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 22\n…2024 | Change | 2023 | Change | 2022\n…Europe | 101,328 | 7% | 94,294 | (1)% | 95,118\nGreater China | 66,952 | (8)% | 72,559 | (2)% | 74,200\nJapan | 25,052 | 3% | 24,257 | (7)% | 25,977\nRest of Asia Pacific | 30,658 | 4% | 29,615 | 1% | 29,375\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\nAmericas\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services.\nEurope\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone.\nGreater China\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024.\nJapan\nJapan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024.\nRest of Asia Pacific\nRest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024.\nApple Inc. | 2024 Form 10-K | 22"
+     }
+    ]
+   },
+   {
+    "text": "Apple reported that Europe net sales increased during fiscal year 2024 compared to 2023 primarily due to higher net sales of Services and iPhone.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2024-09-28_p024_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 22\n…2024 | Change | 2023 | Change | 2022\n…Europe | 101,328 | 7% | 94,294 | (1)% | 95,118\nGreater China | 66,952 | (8)% | 72,559 | (2)% | 74,200\nJapan | 25,052 | 3% | 24,257 | (7)% | 25,977\nRest of Asia Pacific | 30,658 | 4% | 29,615 | 1% | 29,375\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\nAmericas\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services.\nEurope\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone.\nGreater China\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024.\nJapan\nJapan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024.\nRest of Asia Pacific\nRest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024.\nApple Inc. | 2024 Form 10-K | 22"
+     }
+    ]
+   },
+   {
+    "text": "Apple reported that Greater China net sales decreased during fiscal year 2024 compared to 2023 primarily due to lower net sales of iPhone and iPad, noting an unfavorable year-over-year impact from the weakness in the renminbi relative to the U.S. dollar.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2024-09-28_p024_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 22\n…2024 | Change | 2023 | Change | 2022\n…Europe | 101,328 | 7% | 94,294 | (1)% | 95,118\nGreater China | 66,952 | (8)% | 72,559 | (2)% | 74,200\nJapan | 25,052 | 3% | 24,257 | (7)% | 25,977\nRest of Asia Pacific | 30,658 | 4% | 29,615 | 1% | 29,375\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\nAmericas\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services.\nEurope\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone.\nGreater China\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024.\nJapan\nJapan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024.\nRest of Asia Pacific\nRest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024.\nApple Inc. | 2024 Form 10-K | 22"
+     }
+    ]
+   },
+   {
+    "text": "Apple reported that Japan net sales increased during fiscal year 2024 compared to 2023 primarily due to higher net sales of iPhone, noting an unfavorable year-over-year impact from the weakness in the yen relative to the U.S. dollar.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2024-09-28_p024_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 22\n…2024 | Change | 2023 | Change | 2022\n…Europe | 101,328 | 7% | 94,294 | (1)% | 95,118\nGreater China | 66,952 | (8)% | 72,559 | (2)% | 74,200\nJapan | 25,052 | 3% | 24,257 | (7)% | 25,977\nRest of Asia Pacific | 30,658 | 4% | 29,615 | 1% | 29,375\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\nAmericas\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services.\nEurope\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone.\nGreater China\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024.\nJapan\nJapan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024.\nRest of Asia Pacific\nRest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024.\nApple Inc. | 2024 Form 10-K | 22"
+     }
+    ]
+   },
+   {
+    "text": "Apple reported that Rest of Asia Pacific net sales increased during fiscal year 2024 compared to 2023 primarily due to higher net sales of Services, noting a net unfavorable year-over-year impact from the weakness in foreign currencies relative to the U.S. dollar.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2024-09-28_p024_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 22\n…2024 | Change | 2023 | Change | 2022\n…Europe | 101,328 | 7% | 94,294 | (1)% | 95,118\nGreater China | 66,952 | (8)% | 72,559 | (2)% | 74,200\nJapan | 25,052 | 3% | 24,257 | (7)% | 25,977\nRest of Asia Pacific | 30,658 | 4% | 29,615 | 1% | 29,375\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\nAmericas\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services.\nEurope\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone.\nGreater China\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024.\nJapan\nJapan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024.\nRest of Asia Pacific\nRest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024.\nApple Inc. | 2024 Form 10-K | 22"
+     }
+    ]
+   },
+   {
+    "text": "Amazon's North America segment net sales were $426,305 million in fiscal year 2025 and $387,497 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 68,
+      "chunk_id": "AMZN_2025-12-31_p068_1",
+      "shown": "Amazon 10-K FY2025 | Financial Statements and Supplementary Data | page 68\nTable of Contents\nNorth America\nThe North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.\nInternational\nThe International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.\nAWS\nThe AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.\nInformation on reportable segments and reconciliation to consolidated net income is as follows (in millions):\nYear Ended December 31,\n2023 | 2024 | 2025\nNorth America\nNet sales | $352,828 | $387,497 | $426,305\nOperating expenses | 337,951 | 362,530 | 396,686\nOperating income | $14,877 | $24,967 | $29,619\nInternational…"
+     }
+    ]
+   },
+   {
+    "text": "Amazon's International segment net sales were $142,906 million in fiscal year 2024 and $131,200 million in fiscal year 2023.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2024-12-31_p024_1",
+      "shown": "Amazon 10-K FY2024 | Management's Discussion and Analysis | page 24\n…Overview\nMacroeconomic factors, including changes in inflation and interest rates, global economic and geopolitical developments, and the development and adoption of technologies and services, including artificial intelligence, have direct and indirect impacts on our results of operations that are difficult to isolate and quantify. These could affect customer demand for our products and services, our ability to predict growth needs, expenses, and the benefits we gain from new technologies. We expect some or all of them to continue to impact our operations into Q1 2025.\nNet Sales\nNet sales include product and service sales. Product sales represent revenue from the sale of products and related shipping fees and digital media content where we record revenue gross. Service sales primarily represent third-party seller fees, which includes commissions and any related fulfillment and shipping fees, AWS sales, advertising services, Amazon Prime membership fees, and certain digital media content subscriptions. Net sales information is as follows (in millions):\nYear Ended December 31,\n2023 | 2024\nNet Sales:\nNorth America | $352,828 | $387,497\nInternational | 131,200 | 142,906\nAWS | 90,757 | 107,556\nConsolidated | $574,785 | $637,959\nYear-over-year Percentage Growth:\nNorth America | 12% | 10%\nInternational | 11 | 9…"
+     }
+    ]
+   },
+   {
+    "text": "Amazon's AWS segment net sales were $107,556 million in fiscal year 2024 and $90,757 million in fiscal year 2023.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2024-12-31_p024_1",
+      "shown": "Amazon 10-K FY2024 | Management's Discussion and Analysis | page 24\n…Overview\nMacroeconomic factors, including changes in inflation and interest rates, global economic and geopolitical developments, and the development and adoption of technologies and services, including artificial intelligence, have direct and indirect impacts on our results of operations that are difficult to isolate and quantify. These could affect customer demand for our products and services, our ability to predict growth needs, expenses, and the benefits we gain from new technologies. We expect some or all of them to continue to impact our operations into Q1 2025.\nNet Sales\nNet sales include product and service sales. Product sales represent revenue from the sale of products and related shipping fees and digital media content where we record revenue gross. Service sales primarily represent third-party seller fees, which includes commissions and any related fulfillment and shipping fees, AWS sales, advertising services, Amazon Prime membership fees, and certain digital media content subscriptions. Net sales information is as follows (in millions):\nYear Ended December 31,\n2023 | 2024\nNet Sales:\nNorth America | $352,828 | $387,497\nInternational | 131,200 | 142,906\nAWS | 90,757 | 107,556\nConsolidated | $574,785 | $637,959\nYear-over-year Percentage Growth:\nNorth America | 12% | 10%\nInternational | 11 | 9…"
+     }
+    ]
+   },
+   {
+    "text": "Amazon reported that North America net sales increased by 10% in fiscal year 2024 compared to 2023.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2024-12-31_p024_1",
+      "shown": "Amazon 10-K FY2024 | Management's Discussion and Analysis | page 24\n…Overview\nMacroeconomic factors, including changes in inflation and interest rates, global economic and geopolitical developments, and the development and adoption of technologies and services, including artificial intelligence, have direct and indirect impacts on our results of operations that are difficult to isolate and quantify. These could affect customer demand for our products and services, our ability to predict growth needs, expenses, and the benefits we gain from new technologies. We expect some or all of them to continue to impact our operations into Q1 2025.\nNet Sales\nNet sales include product and service sales. Product sales represent revenue from the sale of products and related shipping fees and digital media content where we record revenue gross. Service sales primarily represent third-party seller fees, which includes commissions and any related fulfillment and shipping fees, AWS sales, advertising services, Amazon Prime membership fees, and certain digital media content subscriptions. Net sales information is as follows (in millions):\nYear Ended December 31,\n2023 | 2024\nNet Sales:\nNorth America | $352,828 | $387,497\nInternational | 131,200 | 142,906\nAWS | 90,757 | 107,556\nConsolidated | $574,785 | $637,959\nYear-over-year Percentage Growth:\nNorth America | 12% | 10%\nInternational | 11 | 9…"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet's EMEA region revenues were $117,152 million in fiscal year 2025 and $102,127 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1",
+      "shown": "Alphabet 10-K FY2025 | Financial Statements and Supplementary Data | page 60\n…2023 | 2024 | 2025\n…EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29\nAPAC (1) | 51,514 | 17 | 56,815 | 16 | 67,680 | 17\nOther Americas (1) | 18,320 | 6 | 20,418 | 6 | 23,902 | 6\nHedging gains (losses) | 236 | 0 | 211 | 0 | ( 127 ) | 0\nTotal revenues | $307,394 | 100% | $350,018 | 100% | $402,836 | 100%\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\nRevenue Backlog\nAs of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.\nDeferred Revenues"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet's APAC region revenues were $67,680 million in fiscal year 2025 and $56,815 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1",
+      "shown": "Alphabet 10-K FY2025 | Financial Statements and Supplementary Data | page 60\n…2023 | 2024 | 2025\n…EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29\nAPAC (1) | 51,514 | 17 | 56,815 | 16 | 67,680 | 17\nOther Americas (1) | 18,320 | 6 | 20,418 | 6 | 23,902 | 6\nHedging gains (losses) | 236 | 0 | 211 | 0 | ( 127 ) | 0\nTotal revenues | $307,394 | 100% | $350,018 | 100% | $402,836 | 100%\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\nRevenue Backlog\nAs of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.\nDeferred Revenues"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet's Other Americas region revenues were $23,902 million in fiscal year 2025 and $20,418 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1",
+      "shown": "Alphabet 10-K FY2025 | Financial Statements and Supplementary Data | page 60\n…2023 | 2024 | 2025\n…EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29\nAPAC (1) | 51,514 | 17 | 56,815 | 16 | 67,680 | 17\nOther Americas (1) | 18,320 | 6 | 20,418 | 6 | 23,902 | 6\nHedging gains (losses) | 236 | 0 | 211 | 0 | ( 127 ) | 0\nTotal revenues | $307,394 | 100% | $350,018 | 100% | $402,836 | 100%\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\nRevenue Backlog\nAs of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.\nDeferred Revenues"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet reported a revenue backlog of $242.8 billion as of December 31, 2025, primarily related to Google Cloud.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1",
+      "shown": "Alphabet 10-K FY2025 | Financial Statements and Supplementary Data | page 60\n…2023 | 2024 | 2025\n…EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29\nAPAC (1) | 51,514 | 17 | 56,815 | 16 | 67,680 | 17\nOther Americas (1) | 18,320 | 6 | 20,418 | 6 | 23,902 | 6\nHedging gains (losses) | 236 | 0 | 211 | 0 | ( 127 ) | 0\nTotal revenues | $307,394 | 100% | $350,018 | 100% | $402,836 | 100%\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\nRevenue Backlog\nAs of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.\nDeferred Revenues"
+     }
+    ]
+   },
+   {
+    "text": "Microsoft's United States geographic revenue was $144,546 million in fiscal year 2025 and $124,704 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 84,
+      "chunk_id": "MSFT_2025-06-30_p084_1",
+      "shown": "Microsoft 10-K FY2025 | Financial Statements and Supplementary Data | page 84\n…Revenue | $120,810 | $106,820 | $94,151\n…Operating expenses | 28,615 | 27,548 | 26,875\nOperating Income | $69,773 | $59,661 | $50,074\nIntelligent Cloud\nRevenue | $106,265 | $87,464 | $72,944\nCost of revenue | 40,171 | 29,611 | 24,109\nOperating expenses | 21,505 | 20,040 | 20,424\nOperating Income | $44,589 | $37,813 | $28,411\nMore Personal Computing\nRevenue | $54,649 | $50,838 | $44,820\nCost of revenue | 25,238 | 24,892 | 24,552\nOperating expenses | 15,245 | 13,987 | 10,230\nOperating Income | $14,166 | $11,959 | $10,038\nTotal\nRevenue | $281,724 | $245,122 | $211,915\nCost of revenue | 87,831 | 74,114 | 65,863\nOperating expenses | 65,365 | 61,575 | 57,529\nOperating Income | $128,528 | $109,433 | $88,523\nNo sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2025, 2024, or 2023. Revenue, classified by the major geographic areas in which our customers were located, was as follows:\n(In millions)\nYear Ended June 30, | 2025 | 2024 | 2023\nUnited States (a) | $144,546 | $124,704 | $106,744\nOther countries | 137,178 | 120,418 | 105,171\nTotal | $281,724 | $245,122 | $211,915\n(a)Includes billings to OEMs and certain multinational organizations because of the nature of these businesses and the impracticability of determining the geographic source of the revenue.\n84"
+     }
+    ]
+   },
+   {
+    "text": "Microsoft's Other countries geographic revenue was $137,178 million in fiscal year 2025 and $120,418 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 84,
+      "chunk_id": "MSFT_2025-06-30_p084_1",
+      "shown": "Microsoft 10-K FY2025 | Financial Statements and Supplementary Data | page 84\n…Revenue | $120,810 | $106,820 | $94,151\n…Operating expenses | 28,615 | 27,548 | 26,875\nOperating Income | $69,773 | $59,661 | $50,074\nIntelligent Cloud\nRevenue | $106,265 | $87,464 | $72,944\nCost of revenue | 40,171 | 29,611 | 24,109\nOperating expenses | 21,505 | 20,040 | 20,424\nOperating Income | $44,589 | $37,813 | $28,411\nMore Personal Computing\nRevenue | $54,649 | $50,838 | $44,820\nCost of revenue | 25,238 | 24,892 | 24,552\nOperating expenses | 15,245 | 13,987 | 10,230\nOperating Income | $14,166 | $11,959 | $10,038\nTotal\nRevenue | $281,724 | $245,122 | $211,915\nCost of revenue | 87,831 | 74,114 | 65,863\nOperating expenses | 65,365 | 61,575 | 57,529\nOperating Income | $128,528 | $109,433 | $88,523\nNo sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2025, 2024, or 2023. Revenue, classified by the major geographic areas in which our customers were located, was as follows:\n(In millions)\nYear Ended June 30, | 2025 | 2024 | 2023\nUnited States (a) | $144,546 | $124,704 | $106,744\nOther countries | 137,178 | 120,418 | 105,171\nTotal | $281,724 | $245,122 | $211,915\n(a)Includes billings to OEMs and certain multinational organizations because of the nature of these businesses and the impracticability of determining the geographic source of the revenue.\n84"
+     }
+    ]
+   },
+   {
+    "text": "Microsoft reported that no sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2025, 2024, or 2023.",
+    "sources": [
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 84,
+      "chunk_id": "MSFT_2025-06-30_p084_1",
+      "shown": "Microsoft 10-K FY2025 | Financial Statements and Supplementary Data | page 84\n…Revenue | $120,810 | $106,820 | $94,151\n…Operating expenses | 28,615 | 27,548 | 26,875\nOperating Income | $69,773 | $59,661 | $50,074\nIntelligent Cloud\nRevenue | $106,265 | $87,464 | $72,944\nCost of revenue | 40,171 | 29,611 | 24,109\nOperating expenses | 21,505 | 20,040 | 20,424\nOperating Income | $44,589 | $37,813 | $28,411\nMore Personal Computing\nRevenue | $54,649 | $50,838 | $44,820\nCost of revenue | 25,238 | 24,892 | 24,552\nOperating expenses | 15,245 | 13,987 | 10,230\nOperating Income | $14,166 | $11,959 | $10,038\nTotal\nRevenue | $281,724 | $245,122 | $211,915\nCost of revenue | 87,831 | 74,114 | 65,863\nOperating expenses | 65,365 | 61,575 | 57,529\nOperating Income | $128,528 | $109,433 | $88,523\nNo sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2025, 2024, or 2023. Revenue, classified by the major geographic areas in which our customers were located, was as follows:\n(In millions)\nYear Ended June 30, | 2025 | 2024 | 2023\nUnited States (a) | $144,546 | $124,704 | $106,744\nOther countries | 137,178 | 120,418 | 105,171\nTotal | $281,724 | $245,122 | $211,915\n(a)Includes billings to OEMs and certain multinational organizations because of the nature of these businesses and the impracticability of determining the geographic source of the revenue.\n84"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's United States geographic revenue was $61,257 million in fiscal year 2025 and $26,966 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Jan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's Singapore geographic revenue was $23,684 million in fiscal year 2025 and $6,831 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Jan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's Taiwan geographic revenue was $20,573 million in fiscal year 2025 and $13,405 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Jan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA's China (including Hong Kong) geographic revenue was $17,108 million in fiscal year 2025 and $10,306 million in fiscal year 2024.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Jan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA reported that revenue from sales to customers outside of the United States accounted for 53% of total revenue in fiscal year 2025, 56% in fiscal year 2024, and 69% in fiscal year 2023.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Jan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA reported that the increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Jan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA reported that sales to one customer represented 13% of total revenue for fiscal year 2024, which was attributable to the Compute & Networking segment.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1",
+      "shown": "NVIDIA 10-K FY2024 | Exhibits and Financial Statement Schedules | page 79\n…Year Ended\nJan 28, 2024 | Jan 29, 2023 | Jan 30, 2022\nRevenue: | (In millions)\nUnited States | $26,966 | $8,292 | $4,349\nTaiwan | 13,405 | 6,986 | 8,544\nChina (including Hong Kong) | 10,306 | 5,785 | 7,111\nOther countries | 10,245 | 5,911 | 6,910\nTotal revenue | $60,922 | $26,974 | $26,914\nRevenue from sales to customers outside of the United States accounted for 56%, 69%, and 84% of total revenue for fiscal years 2024, 2023, and 2022, respectively. The increase in revenue to the United States for fiscal year 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.\nSales to one customer represented 13% of total revenue for fiscal year 2024, which was attributable to the Compute & Networking segment. No customer represented 10% or more of total revenue for fiscal years 2023 and 2022.\nThe following table summarizes information pertaining to our revenue by each of the specialized markets we serve:\nYear Ended\nJan 28, 2024 | Jan 29, 2023 | Jan 30, 2022\nRevenue: | (In millions)\nData Center | $47,525 | $15,005 | $10,613\nGaming | 10,447 | 9,067 | 12,462\nProfessional Visualization | 1,553 | 1,544 | 2,111\nAutomotive | 1,091 | 903 | 566\nOEM and Other | 306 | 455 | 1,162\nTotal revenue | $60,922 | $26,974 | $26,914\n79"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA reported that no customer represented 10% or more of total revenue for fiscal years 2023 and 2022.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1",
+      "shown": "NVIDIA 10-K FY2024 | Exhibits and Financial Statement Schedules | page 79\n…Year Ended\nJan 28, 2024 | Jan 29, 2023 | Jan 30, 2022\nRevenue: | (In millions)\nUnited States | $26,966 | $8,292 | $4,349\nTaiwan | 13,405 | 6,986 | 8,544\nChina (including Hong Kong) | 10,306 | 5,785 | 7,111\nOther countries | 10,245 | 5,911 | 6,910\nTotal revenue | $60,922 | $26,974 | $26,914\nRevenue from sales to customers outside of the United States accounted for 56%, 69%, and 84% of total revenue for fiscal years 2024, 2023, and 2022, respectively. The increase in revenue to the United States for fiscal year 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.\nSales to one customer represented 13% of total revenue for fiscal year 2024, which was attributable to the Compute & Networking segment. No customer represented 10% or more of total revenue for fiscal years 2023 and 2022.\nThe following table summarizes information pertaining to our revenue by each of the specialized markets we serve:\nYear Ended\nJan 28, 2024 | Jan 29, 2023 | Jan 30, 2022\nRevenue: | (In millions)\nData Center | $47,525 | $15,005 | $10,613\nGaming | 10,447 | 9,067 | 12,462\nProfessional Visualization | 1,553 | 1,544 | 2,111\nAutomotive | 1,091 | 903 | 566\nOEM and Other | 306 | 455 | 1,162\nTotal revenue | $60,922 | $26,974 | $26,914\n79"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages do not contain specific year-over-year percentage change figures for Apple's Europe, Japan, or Rest of Asia Pacific regions in fiscal year 2024 compared to 2023, although they state the direction of the change and primary drivers. The passages also do not provide a constant currency adjustment analysis for any company other than Alphabet, which defines its methodology but does not present calculated results.",
+  "dropped": [
+   {
+    "text": "Apple's net sales for the Americas were $178,353 million in fiscal year 2025 and $142,196 million in fiscal year 2024.",
+    "reason": "numbers not in cited passage: 142196"
+   },
+   {
+    "text": "Apple's net sales for Greater China were $64,377 million in fiscal year 2025 and $66,952 million in fiscal year 2024.",
+    "reason": "numbers not in cited passage: 66952"
+   },
+   {
+    "text": "Apple's net sales for Japan were $28,703 million in fiscal year 2025 and $25,052 million in fiscal year 2024.",
+    "reason": "numbers not in cited passage: 25052"
+   },
+   {
+    "text": "Apple's net sales for Rest of Asia Pacific were $33,696 million in fiscal year 2025 and $30,658 million in fiscal year 2024.",
+    "reason": "numbers not in cited passage: 30658"
+   },
+   {
+    "text": "Apple's net sales for Europe were $111,032 million in fiscal year 2025 and $101,328 million in fiscal year 2024.",
+    "reason": "numbers not in cited passage: 101328"
+   },
+   {
+    "text": "Amazon reported that International net sales increased by 9% in fiscal year 2024 compared to 2023.",
+    "reason": "numbers not in cited passage: 9"
+   }
+  ],
+  "model": "qwen3.5:4b",
+  "seconds_model": 794,
+  "prompt_tokens": 5993
+ }
+]

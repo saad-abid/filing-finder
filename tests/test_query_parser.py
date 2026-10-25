@@ -63,8 +63,16 @@ def test_search_text_keeps_only_the_topic():
     from src.retrieval.query_parser import search_text
     assert search_text("How did Apple describe supplier concentration in 2024?") == "supplier concentration"
     assert search_text("Compare capital expenditures for Microsoft, Alphabet, Amazon and NVIDIA.") \
-        == "capital expenditures"
+        .startswith("capital expenditures")
     # AWS is a filter (Amazon) *and* the topic, so it stays
     assert search_text("Compare Amazon's AWS operating income, 2021-2025.") == "AWS operating income"
     # nothing left after cleaning -> fall back to the full question
     assert search_text("What did Apple say in 2024?") == "What did Apple say in 2024?"
+
+
+def test_search_text_adds_the_words_filings_use():
+    from src.retrieval.query_parser import search_text
+    s = search_text("What are each company's main geographic revenue exposures?")
+    assert s.startswith("main geographic revenue exposures") and "United States" in s
+    assert search_text("Compare capex for Microsoft.").endswith("capital expenditures")
+    assert search_text("How did Apple describe supplier concentration in 2024?") == "supplier concentration"
