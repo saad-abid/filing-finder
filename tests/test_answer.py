@@ -76,3 +76,11 @@ def test_missing_years_are_passed_to_the_model_and_reported():
     a = answer("NVIDIA risks in 2026", fake_retriever([passage("p1")], missing=[("NVDA", 2026)]), llm)
     assert "NVDA FY2026" in llm.calls[0]
     assert a.missing == [("NVDA", 2026)] and "NVDA FY2026" in format_answer(a)
+
+
+def test_trim_keeps_the_table_header_with_the_years():
+    rows = [f"Row {i} | {1000 + i} | {2000 + i} | {3000 + i}" for i in range(60)]
+    text = "\n".join(["Revenue by region:", "2023 | 2024 | 2025"] + rows
+                     + ["EMEA (1) | 91,038 | 102,127 | 117,152"] + rows)
+    out = prompts.trim_passage(text, prompts.topic_words("EMEA"), 400)
+    assert "2023 | 2024 | 2025" in out and "EMEA (1) | 91,038" in out

@@ -84,3 +84,71 @@ def test_form_names_are_not_figures():
     assert numbers_in("The Form 10-K and 10-Q filings for 2024") == {"2024"}
     out = check(reply(limitations="The 10-K passages do not cover earnings calls."), SHOWN)
     assert out.limitations and not out.dropped
+
+
+# --- Phase 5 checks -------------------------------------------------------
+
+APPLE_TABLE = ("Apple 10-K FY2025 | MD&A | page 23\n"
+               "2025 | Change | 2024 | Change | 2023\n"
+               "Mac | 33,708 | 12% | 29,984 | 2% | 29,357\n"
+               "Services (1) | 109,158 | 14% | 96,169 | 13% | 85,200")
+ALPHABET_TABLE = ("Alphabet 10-K FY2025 | Financial Statements | page 60\n"
+                  "2023 | 2024 | 2025\n"
+                  "Total revenues | $307,394 | $350,018 | $402,836\n"
+                  "2023 | 2024 | 2025\n"
+                  "EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29")
+
+
+def test_direction_word_must_match_the_numbers():
+    shown = {1: "Apple 10-K FY2025 | MD&A | page 23\nMac | 35,190 | 33,708"}
+    out = check(reply(("Mac revenue increased from $35,190 million to $33,708 million.", [1])), shown)
+    assert out.status == "not_found" and "went from" in out.dropped[0][1]
+    ok = check(reply(("Mac revenue decreased from $35,190 million to $33,708 million.", [1])), shown)
+    assert ok.status == "answered"
+
+
+def test_year_span_is_not_mistaken_for_figures():
+    shown = {1: "Apple 10-K FY2021 | MD&A | page 21\n2021 | 2020\nWearables | 38,367 | 30,620",
+             2: "Apple 10-K FY2025 | MD&A | page 23\n2025 | 2024\nWearables | 35,686 | 37,005"}
+    out = check(reply(("From 2021 to 2025, Wearables revenue decreased from $38,367 million "
+                       "to $35,686 million.", [1, 2])), shown)
+    assert out.status == "answered"
+
+
+def test_change_claims_need_two_years():
+    one = {1: "Apple 10-K FY2023 | Risk Factors | page 6\nExport controls may affect the Company."}
+    out = check(reply(("Apple added language on export controls.", [1])), one)
+    assert "only one year" in out.dropped[0][1]
+    two = {**one, 2: "Apple 10-K FY2021 | Risk Factors | page 9\nThe Company's operations are global."}
+    assert check(reply(("Apple added language on export controls.", [1, 2])), two).status == "answered"
+
+
+def test_figure_with_wrong_column_year_is_dropped():
+    out = check(reply(("Mac net sales were $33,708 million in fiscal 2024.", [1])), {1: APPLE_TABLE})
+    assert out.status == "not_found" and "column '2025'" in out.dropped[0][1]
+    ok = check(reply(("Mac net sales were $33,708 million in fiscal 2025.", [1])), {1: APPLE_TABLE})
+    assert ok.status == "answered"
+
+
+def test_figure_with_wrong_row_label_is_dropped():
+    out = check(reply(("EMEA revenue was $307,394 million in 2023.", [1])), {1: ALPHABET_TABLE})
+    assert out.status == "not_found" and "Total revenues" in out.dropped[0][1]
+
+
+def test_real_phase4_mistake_total_revenues_as_emea_is_dropped():
+    # The model wrote "total revenues" but with the wrong year; the column check catches it
+    out = check(reply(("Alphabet's total revenues were $307,394 million for EMEA in fiscal year 2025.", [1])),
+                {1: ALPHABET_TABLE})
+    assert out.status == "not_found"
+
+
+def test_correctly_labelled_table_figures_pass():
+    out = check(reply(("EMEA revenue was $117,152 million in 2025.", [1]),
+                      ("Services net sales were $109,158 million in 2025, up 14%.", [2])),
+                {1: ALPHABET_TABLE, 2: APPLE_TABLE})
+    assert out.status == "answered" and len(out.sentences) == 2 and not out.dropped
+
+
+def test_prose_figures_are_not_label_checked():
+    shown = {1: "NVIDIA 10-K FY2024 | MD&A | page 36\nData Center revenue for fiscal year 2024 was $47.5 billion."}
+    assert check(reply(("Data Center revenue was $47.5 billion in fiscal 2024.", [1])), shown).status == "answered"
