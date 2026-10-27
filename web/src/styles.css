@@ -79,6 +79,7 @@ button.link.active { font-weight: 600; }
 .small { font-size: 0.85rem; }
 
 .answer-text p { margin: 0 0 10px; }
+.cites { white-space: nowrap; }
 .cite {
   display: inline-block; min-width: 1.6em; margin: 0 2px; padding: 0 5px;
   font-size: 0.75rem; line-height: 1.5; vertical-align: super;
