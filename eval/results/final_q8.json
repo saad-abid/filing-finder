@@ -1,0 +1,143 @@
+[
+ {
+  "number": 8,
+  "question": "Compare capital expenditures and purchase commitments for Microsoft, Alphabet, Amazon and NVIDIA.",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "Amazon reported cash capital expenditures of $35.0 billion in 2020 and $55.4 billion in 2021, increasing from the prior year.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AMZN_2021-12-31_p021_1",
+      "shown": "Amazon 10-K FY2021 | Management's Discussion and Analysis | page 21\n…Cash provided by (used in) investing activities corresponds with cash capital expenditures, including leasehold improvements, incentives received from property and equipment vendors, proceeds from asset sales, cash outlays for acquisitions, investments in other companies and intellectual property rights, and purchases, sales, and maturities of marketable securities. Cash provided by (used in) investing activities was $(59.6) billion and $(58.2) billion in 2020 and 2021, with the variability caused primarily by our decision to purchase or lease property and equipment and purchases, sales, and maturities of marketable securities. Cash capital expenditures were $35.0 billion, and $55.4 billion in 2020 and 2021, which primarily reflect investments in additional capacity to support our fulfillment operations and in support of continued business growth in technology infrastructure (the majority of which is to support AWS), which inve…"
+     }
+    ]
+   },
+   {
+    "text": "Amazon's cash capital expenditures were $55.4 billion in 2021 and $77.7 billion in 2024, with an increase between these years.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AMZN_2025-12-31_p023_1",
+      "shown": "Amazon 10-K FY2025 | Management's Discussion and Analysis | page 23\n…Cash provided by (used in) investing activities corresponds with cash capital expenditures, including leasehold improvements, incentives received from property and equipment vendors, proceeds from asset sales, cash outlays for acquisitions, investments in other companies and intellectual property rights, and purchases, sales, and maturities of marketable securities. Cash provided by (used in) investing activities was $(94.3) billion and $(142.5) billion in 2024 and 2025, with the variability caused primarily by purchases, sales, and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026. We made cash payments…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AMZN_2021-12-31_p021_1",
+      "shown": "Amazon 10-K FY2021 | Management's Discussion and Analysis | page 21\n…Cash provided by (used in) investing activities corresponds with cash capital expenditures, including leasehold improvements, incentives received from property and equipment vendors, proceeds from asset sales, cash outlays for acquisitions, investments in other companies and intellectual property rights, and purchases, sales, and maturities of marketable securities. Cash provided by (used in) investing activities was $(59.6) billion and $(58.2) billion in 2020 and 2021, with the variability caused primarily by our decision to purchase or lease property and equipment and purchases, sales, and maturities of marketable securities. Cash capital expenditures were $35.0 billion, and $55.4 billion in 2020 and 2021, which primarily reflect investments in additional capacity to support our fulfillment operations and in support of continued business growth in technology infrastructure (the majority of which is to support AWS), which inve…"
+     }
+    ]
+   },
+   {
+    "text": "Amazon's cash capital expenditures were $77.7 billion in 2024 and $128.3 billion in 2025, representing an increase.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AMZN_2025-12-31_p023_1",
+      "shown": "Amazon 10-K FY2025 | Management's Discussion and Analysis | page 23\n…Cash provided by (used in) investing activities corresponds with cash capital expenditures, including leasehold improvements, incentives received from property and equipment vendors, proceeds from asset sales, cash outlays for acquisitions, investments in other companies and intellectual property rights, and purchases, sales, and maturities of marketable securities. Cash provided by (used in) investing activities was $(94.3) billion and $(142.5) billion in 2024 and 2025, with the variability caused primarily by purchases, sales, and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026. We made cash payments…"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet spent $22.3 billion on capital expenditures in 2020 and $24.6 billion in 2021.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 40,
+      "chunk_id": "GOOGL_2021-12-31_p041_1",
+      "shown": "Alphabet 10-K FY2021 | Management's Discussion and Analysis | page 40\n…During the years ended December 31, 2020 and 2021, we spent $22.3 billion and $24.6 billion on capital expenditures, respectively. Depreciation of our property and equipment commences when the deployment of such assets are completed and are ready for our intended use. Land is not depreciated. For the years ended December 31, 2020 and 2021, our depreciation and impairment expenses on property and equipment were $12.9 billion and $11.6 billion, respectively.\nLeases…"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet states it makes investments in land, buildings, servers, and network equipment through purchases and leases to support service growth.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 42,
+      "chunk_id": "GOOGL_2024-12-31_p043_1",
+      "shown": "Alphabet 10-K FY2024 | Management's Discussion and Analysis | page 42\nTable of Contents | Alphabet Inc.\nLiquidity and Material Cash Requirements\nWe expect existing cash, cash equivalents, short-term marketable securities, and cash flows from operations and financing activities to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities for at least the next 12 months, and thereafter for the foreseeable future.\nCapital Expenditures and Leases\nWe make investments in land, buildings, and servers and network equipment through purchases of property and equipment and lease arrangements to provide capacity for the growth of our services and products.\nCapital Expenditures\nOur capital investments in property and equipment consist primarily of the following major categories:…"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 41,
+      "chunk_id": "GOOGL_2023-12-31_p042_2",
+      "shown": "Alphabet 10-K FY2023 | Management's Discussion and Analysis | page 41\nWe make investments in land and buildings for data centers and offices and information technology assets through purchases of property and equipment and lease arrangements to provide capacity for the growth of our services and products.\nCapital Expenditures\nOur capital investments in property and equipment consist primarily of the following major categories:\n•technical infrastructure, which consists of our investments in servers and network equipment for computing, storage, and networking requirements for ongoing business activities, including AI, (collectively referred to as our information technology assets) and data center land and building construction; and\n•office facilities, ground-up development projects, and building improvements (also referred to as \"fit-outs\").…"
+     }
+    ]
+   },
+   {
+    "text": "Microsoft notes that purchase commitments primarily relate to datacenters and include open purchase orders and take-or-pay contracts not presented as construction commitments.",
+    "sources": [
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 51,
+      "chunk_id": "MSFT_2022-06-30_p051_1",
+      "shown": "Microsoft 10-K FY2022 | Management's Discussion and Analysis | page 51\n…Principal payments | $2,750 | $52,761 | $55,511\n…(c) | Refer to Note 14 – Leases of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).\n( d ) | Purchase commitments primarily relate to datacenters and include open purchase orders and take-or-pay contracts that are not presented as construction commitments above.\nIncome Taxes\nAs a result of the TCJA, we are required to pay a one-time transition tax on deferred foreign income not previously subject to U.S. income tax. Under the TCJA, the transition tax is payable in interest-free installments over eight years, with 8% due in each of the first five years, 15% in year six, 20% in year seven, and 25% in year eight. We have paid transition tax of $6.2 billion, which included $1.5 billion for fiscal year 2022. The remaining transition tax of $12.0 billion is payable over the next four years, with $1.3 billion payable within 12 months.…"
+     },
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 50,
+      "chunk_id": "MSFT_2024-06-30_p050_1",
+      "shown": "Microsoft 10-K FY2024 | Management's Discussion and Analysis | page 50\n…(b)Refer to Note 7 – Property and Equipment of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).\n(c)Refer to Note 14 – Leases of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).\n(d)Purchase commitments primarily relate to datacenters and include open purchase orders and take-or-pay contracts that are not presented as construction commitments above.\nIncome Taxes\nAs a result of the TCJA, we are required to pay a one-time transition tax on deferred foreign income not previously subject to U.S. income tax. Under the TCJA, the transition tax is payable in interest-free installments over eight years, with 8% due in each of the first five years, 15% in year six, 20% in year seven, and 25% in year eight. As of June 30, 2024, we had a remaining transition tax liability of $7.6 billion, of which $3.8 billion is short-term and payable in the first quarter of fiscal year 2025.\nShare Repurchases…"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA reported consolidated outstanding inventory purchase and long-term supply and capacity obligations of $16.1 billion as of January 28, 2024.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 49,
+      "chunk_id": "NVDA_2024-01-28_p049_1",
+      "shown": "NVIDIA 10-K FY2024 | Exhibits and Financial Statement Schedules | page 49\n…Valuation of Inventories - Provisions for Excess or Obsolete Inventories and Excess Product Purchase Commitments\nAs described in Notes 1, 10 and 13 to the consolidated financial statements, the Company charges cost of sales for inventory provisions to write-down inventory for excess or obsolete inventory and for excess product purchase commitments. Most of the Company’s inventory provisions relate to excess quantities of products, based on the Company’s inventory levels and future product purchase commitments compared to assumptions about future demand and market conditions. As of January 28, 2024, the Company’s consolidated inventories balance was $5.3 billion and the Company’s consolidated outstanding inventory purchase and long-term supply and capacity obligations balance was $16.1 billion, of which a significant portion relates to inventory purchase obligations.…"
+     }
+    ]
+   },
+   {
+    "text": "NVIDIA reported consolidated outstanding inventory purchase and long-term supply and capacity obligations of $30.8 billion as of January 26, 2025.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 51,
+      "chunk_id": "NVDA_2025-01-26_p051_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 51\n…Valuation of Inventories - Provisions for Excess or Obsolete Inventories and Excess Product Purchase Commitments\nAs described in Notes 1, 9 and 12 to the consolidated financial statements, the Company charges cost of sales for inventory provisions to write-down inventory for excess or obsolete inventory and for excess product purchase commitments. Most of the Company’s inventory provisions relate to excess quantities of products, based on the Company’s inventory levels and future product purchase commitments compared to assumptions about future demand and market conditions. As of January 26, 2025, the Company’s consolidated inventories balance was $10.1 billion and the Company’s consolidated outstanding inventory purchase and long-term supply and capacity obligations balance was $30.8 billion, of which a significant portion relates to inventory purchase obligations.…"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages do not contain specific dollar amounts for capital expenditures or purchase commitments for Microsoft in fiscal years 2021, 2022, or 2023. The passages also do not provide specific dollar amounts for Alphabet's capital expenditures beyond the years 2020 and 2021, nor do they provide specific dollar amounts for Amazon's purchase obligations beyond the qualitative descriptions in the supplementary data notes.",
+  "dropped": [],
+  "model": "qwen3.5:4b",
+  "seconds_model": 280,
+  "prompt_tokens": 3735
+ }
+]

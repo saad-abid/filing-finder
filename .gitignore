@@ -5,3 +5,7 @@ __pycache__/
 data/raw/
 data/processed/
 .DS_Store
+claude.md
+web/node_modules/
+web/dist/
+web/.vite/

@@ -1,0 +1,15 @@
+﻿requests
+python-dotenv
+beautifulsoup4
+lxml
+# Phase 3: database + embeddings. Install CPU-only PyTorch first (smaller):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+sentence-transformers
+psycopg[binary]
+pgvector
+pytest
+# Phase 6: web server
+fastapi
+uvicorn[standard]
+httpx

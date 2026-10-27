@@ -1,0 +1,711 @@
+[
+ {
+  "number": 1,
+  "question": "How did Apple's revenue mix (iPhone, Services, Mac, iPad, Wearables) change from 2021 to 2025?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "iPhone revenue was $191,973 million in FY2021 and increased to $205,489 million in FY2022 before decreasing to $200,583 million in FY2023, remaining relatively flat at $201,183 million in FY2024, and increasing to $209,586 million in FY2025.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1",
+      "shown": "Apple 10-K FY2021 | Management's Discussion and Analysis | page 21\n…iPhone (1) | $191,973 | 39% | $137,781 | (3)% | $142,381\nMac (1) | 35,190 | 23% | 28,622 | 11% | 25,740\niPad (1) | 31,862 | 34% | 23,724 | 11% | 21,280\nWearables, Home and Accessories (1)(2) | 38,367 | 25% | 30,620 | 25% | 24,482\nServices (3) | 68,425 | 27% | 53,768 | 16% | 46,291\nTotal net sales | $365,817 | 33% | $274,515 | 6% | $260,174\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2021 compared to 2020 due primarily to higher net sales from the Company’s new iPhone models launched in the first quarter and fourth quarter of 2021 and a favorable mix of iPhone sales.\nMac\nMac net sales increased during 2021 compared to 2020 due primarily to higher net sales of MacBook Air, MacBook Pro and iMac.\niPad\niPad net sales increased during 2021 compared to 2020 due primarily to higher net sales of iPad Air and iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2021 compared to 2020 due primarily to higher net sales of accessories and Apple Watch.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2022-09-24_p023_1",
+      "shown": "Apple 10-K FY2022 | Management's Discussion and Analysis | page 21\n…2022 | Change | 2021 | Change | 2020\nNet sales by category:\niPhone (1) | $205,489 | 7% | $191,973 | 39% | $137,781\nMac (1) | 40,177 | 14% | 35,190 | 23% | 28,622\niPad (1) | 29,292 | (8)% | 31,862 | 34% | 23,724\nWearables, Home and Accessories (1)(2) | 41,241 | 7% | 38,367 | 25% | 30,620\nServices (3) | 78,129 | 14% | 68,425 | 27% | 53,768\nTotal net sales | $394,328 | 8% | $365,817 | 33% | $274,515\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2022 compared to 2021 due primarily to higher net sales from the Company’s new iPhone models released since the beginning of the fourth quarter of 2021.\nMac\nMac net sales increased during 2022 compared to 2021 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2022 compared to 2021 due primarily to lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2022 compared to 2021 due primarily to higher net sales of Apple Watch and AirPods.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2023-09-30_p024_1",
+      "shown": "Apple 10-K FY2023 | Management's Discussion and Analysis | page 22\n…2023 | Change | 2022 | Change | 2021\nNet sales by category:\niPhone (1) | $200,583 | (2)% | $205,489 | 7% | $191,973\nMac (1) | 29,357 | (27)% | 40,177 | 14% | 35,190\niPad (1) | 28,300 | (3)% | 29,292 | (8)% | 31,862\nWearables, Home and Accessories (1) | 39,845 | (3)% | 41,241 | 7% | 38,367\nServices (2) | 85,200 | 9% | 78,129 | 14% | 68,425\nTotal net sales | $383,285 | (3)% | $394,328 | 8% | $365,817\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales decreased 2% or $4.9 billion during 2023 compared to 2022 due to lower net sales of non-Pro iPhone models, partially offset by higher net sales of Pro iPhone models.\nMac\nMac net sales decreased 27% or $10.8 billion during 2023 compared to 2022 due primarily to lower net sales of laptops.\niPad\niPad net sales decreased 3% or $1.0 billion during 2023 compared to 2022 due primarily to lower net sales of iPad mini and iPad Air, partially offset by the combined net sales of iPad 9th and 10th generation.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased 3% or $1.4 billion during 2023 compared to 2022 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased 9% or $7.1 billion during 2023 compared to 2022 due to higher net sales across all lines of business.\nApple Inc. | 2023 Form 10-K | 22"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2024-09-28_p025_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions):\n2024 | Change | 2023 | Change | 2022\niPhone | $201,183 | —% | $200,583 | (2)% | $205,489\nMac | 29,984 | 2% | 29,357 | (27)% | 40,177\niPad | 26,694 | (6)% | 28,300 | (3)% | 29,292\nWearables, Home and Accessories | 37,005 | (7)% | 39,845 | (3)% | 41,241\nServices (1) | 96,169 | 13% | 85,200 | 9% | 78,129\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales were relatively flat during 2024 compared to 2023.\nMac\nMac net sales increased during 2024 compared to 2023 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPad Pro and the entry-level iPad models, partially offset by higher net sales of iPad Air.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2024 compared to 2023 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.\nApple Inc. | 2024 Form 10-K | 23"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1",
+      "shown": "Apple 10-K FY2025 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n2025 | Change | 2024 | Change | 2023\niPhone | $209,586 | 4% | $201,183 | —% | $200,583\nMac | 33,708 | 12% | 29,984 | 2% | 29,357\niPad | 28,023 | 5% | 26,694 | (6)% | 28,300\nWearables, Home and Accessories | 35,686 | (4)% | 37,005 | (7)% | 39,845\nServices (1) | 109,158 | 14% | 96,169 | 13% | 85,200\nTotal net sales | $416,161 | 6% | $391,035 | 2% | $383,285\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models.\nMac\nMac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\niPad\niPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables.\nServices\nServices net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services.\nApple Inc. | 2025 Form 10-K | 23"
+     }
+    ]
+   },
+   {
+    "text": "Mac revenue was $35,190 million in FY2021, increased to $40,177 million in FY2022, decreased to $29,357 million in FY2023, increased to $29,984 million in FY2024, and increased further to $33,708 million in FY2025.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1",
+      "shown": "Apple 10-K FY2021 | Management's Discussion and Analysis | page 21\n…iPhone (1) | $191,973 | 39% | $137,781 | (3)% | $142,381\nMac (1) | 35,190 | 23% | 28,622 | 11% | 25,740\niPad (1) | 31,862 | 34% | 23,724 | 11% | 21,280\nWearables, Home and Accessories (1)(2) | 38,367 | 25% | 30,620 | 25% | 24,482\nServices (3) | 68,425 | 27% | 53,768 | 16% | 46,291\nTotal net sales | $365,817 | 33% | $274,515 | 6% | $260,174\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2021 compared to 2020 due primarily to higher net sales from the Company’s new iPhone models launched in the first quarter and fourth quarter of 2021 and a favorable mix of iPhone sales.\nMac\nMac net sales increased during 2021 compared to 2020 due primarily to higher net sales of MacBook Air, MacBook Pro and iMac.\niPad\niPad net sales increased during 2021 compared to 2020 due primarily to higher net sales of iPad Air and iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2021 compared to 2020 due primarily to higher net sales of accessories and Apple Watch.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2022-09-24_p023_1",
+      "shown": "Apple 10-K FY2022 | Management's Discussion and Analysis | page 21\n…2022 | Change | 2021 | Change | 2020\nNet sales by category:\niPhone (1) | $205,489 | 7% | $191,973 | 39% | $137,781\nMac (1) | 40,177 | 14% | 35,190 | 23% | 28,622\niPad (1) | 29,292 | (8)% | 31,862 | 34% | 23,724\nWearables, Home and Accessories (1)(2) | 41,241 | 7% | 38,367 | 25% | 30,620\nServices (3) | 78,129 | 14% | 68,425 | 27% | 53,768\nTotal net sales | $394,328 | 8% | $365,817 | 33% | $274,515\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2022 compared to 2021 due primarily to higher net sales from the Company’s new iPhone models released since the beginning of the fourth quarter of 2021.\nMac\nMac net sales increased during 2022 compared to 2021 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2022 compared to 2021 due primarily to lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2022 compared to 2021 due primarily to higher net sales of Apple Watch and AirPods.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2023-09-30_p024_1",
+      "shown": "Apple 10-K FY2023 | Management's Discussion and Analysis | page 22\n…2023 | Change | 2022 | Change | 2021\nNet sales by category:\niPhone (1) | $200,583 | (2)% | $205,489 | 7% | $191,973\nMac (1) | 29,357 | (27)% | 40,177 | 14% | 35,190\niPad (1) | 28,300 | (3)% | 29,292 | (8)% | 31,862\nWearables, Home and Accessories (1) | 39,845 | (3)% | 41,241 | 7% | 38,367\nServices (2) | 85,200 | 9% | 78,129 | 14% | 68,425\nTotal net sales | $383,285 | (3)% | $394,328 | 8% | $365,817\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales decreased 2% or $4.9 billion during 2023 compared to 2022 due to lower net sales of non-Pro iPhone models, partially offset by higher net sales of Pro iPhone models.\nMac\nMac net sales decreased 27% or $10.8 billion during 2023 compared to 2022 due primarily to lower net sales of laptops.\niPad\niPad net sales decreased 3% or $1.0 billion during 2023 compared to 2022 due primarily to lower net sales of iPad mini and iPad Air, partially offset by the combined net sales of iPad 9th and 10th generation.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased 3% or $1.4 billion during 2023 compared to 2022 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased 9% or $7.1 billion during 2023 compared to 2022 due to higher net sales across all lines of business.\nApple Inc. | 2023 Form 10-K | 22"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2024-09-28_p025_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions):\n2024 | Change | 2023 | Change | 2022\niPhone | $201,183 | —% | $200,583 | (2)% | $205,489\nMac | 29,984 | 2% | 29,357 | (27)% | 40,177\niPad | 26,694 | (6)% | 28,300 | (3)% | 29,292\nWearables, Home and Accessories | 37,005 | (7)% | 39,845 | (3)% | 41,241\nServices (1) | 96,169 | 13% | 85,200 | 9% | 78,129\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales were relatively flat during 2024 compared to 2023.\nMac\nMac net sales increased during 2024 compared to 2023 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPad Pro and the entry-level iPad models, partially offset by higher net sales of iPad Air.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2024 compared to 2023 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.\nApple Inc. | 2024 Form 10-K | 23"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1",
+      "shown": "Apple 10-K FY2025 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n2025 | Change | 2024 | Change | 2023\niPhone | $209,586 | 4% | $201,183 | —% | $200,583\nMac | 33,708 | 12% | 29,984 | 2% | 29,357\niPad | 28,023 | 5% | 26,694 | (6)% | 28,300\nWearables, Home and Accessories | 35,686 | (4)% | 37,005 | (7)% | 39,845\nServices (1) | 109,158 | 14% | 96,169 | 13% | 85,200\nTotal net sales | $416,161 | 6% | $391,035 | 2% | $383,285\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models.\nMac\nMac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\niPad\niPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables.\nServices\nServices net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services.\nApple Inc. | 2025 Form 10-K | 23"
+     }
+    ]
+   },
+   {
+    "text": "iPad revenue was $31,862 million in FY2021, decreased to $29,292 million in FY2022, decreased further to $28,300 million in FY2023, decreased again to $26,694 million in FY2024, and increased to $28,023 million in FY2025.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1",
+      "shown": "Apple 10-K FY2021 | Management's Discussion and Analysis | page 21\n…iPhone (1) | $191,973 | 39% | $137,781 | (3)% | $142,381\nMac (1) | 35,190 | 23% | 28,622 | 11% | 25,740\niPad (1) | 31,862 | 34% | 23,724 | 11% | 21,280\nWearables, Home and Accessories (1)(2) | 38,367 | 25% | 30,620 | 25% | 24,482\nServices (3) | 68,425 | 27% | 53,768 | 16% | 46,291\nTotal net sales | $365,817 | 33% | $274,515 | 6% | $260,174\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2021 compared to 2020 due primarily to higher net sales from the Company’s new iPhone models launched in the first quarter and fourth quarter of 2021 and a favorable mix of iPhone sales.\nMac\nMac net sales increased during 2021 compared to 2020 due primarily to higher net sales of MacBook Air, MacBook Pro and iMac.\niPad\niPad net sales increased during 2021 compared to 2020 due primarily to higher net sales of iPad Air and iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2021 compared to 2020 due primarily to higher net sales of accessories and Apple Watch.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2022-09-24_p023_1",
+      "shown": "Apple 10-K FY2022 | Management's Discussion and Analysis | page 21\n…2022 | Change | 2021 | Change | 2020\nNet sales by category:\niPhone (1) | $205,489 | 7% | $191,973 | 39% | $137,781\nMac (1) | 40,177 | 14% | 35,190 | 23% | 28,622\niPad (1) | 29,292 | (8)% | 31,862 | 34% | 23,724\nWearables, Home and Accessories (1)(2) | 41,241 | 7% | 38,367 | 25% | 30,620\nServices (3) | 78,129 | 14% | 68,425 | 27% | 53,768\nTotal net sales | $394,328 | 8% | $365,817 | 33% | $274,515\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2022 compared to 2021 due primarily to higher net sales from the Company’s new iPhone models released since the beginning of the fourth quarter of 2021.\nMac\nMac net sales increased during 2022 compared to 2021 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2022 compared to 2021 due primarily to lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2022 compared to 2021 due primarily to higher net sales of Apple Watch and AirPods.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2023-09-30_p024_1",
+      "shown": "Apple 10-K FY2023 | Management's Discussion and Analysis | page 22\n…2023 | Change | 2022 | Change | 2021\nNet sales by category:\niPhone (1) | $200,583 | (2)% | $205,489 | 7% | $191,973\nMac (1) | 29,357 | (27)% | 40,177 | 14% | 35,190\niPad (1) | 28,300 | (3)% | 29,292 | (8)% | 31,862\nWearables, Home and Accessories (1) | 39,845 | (3)% | 41,241 | 7% | 38,367\nServices (2) | 85,200 | 9% | 78,129 | 14% | 68,425\nTotal net sales | $383,285 | (3)% | $394,328 | 8% | $365,817\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales decreased 2% or $4.9 billion during 2023 compared to 2022 due to lower net sales of non-Pro iPhone models, partially offset by higher net sales of Pro iPhone models.\nMac\nMac net sales decreased 27% or $10.8 billion during 2023 compared to 2022 due primarily to lower net sales of laptops.\niPad\niPad net sales decreased 3% or $1.0 billion during 2023 compared to 2022 due primarily to lower net sales of iPad mini and iPad Air, partially offset by the combined net sales of iPad 9th and 10th generation.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased 3% or $1.4 billion during 2023 compared to 2022 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased 9% or $7.1 billion during 2023 compared to 2022 due to higher net sales across all lines of business.\nApple Inc. | 2023 Form 10-K | 22"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2024-09-28_p025_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions):\n2024 | Change | 2023 | Change | 2022\niPhone | $201,183 | —% | $200,583 | (2)% | $205,489\nMac | 29,984 | 2% | 29,357 | (27)% | 40,177\niPad | 26,694 | (6)% | 28,300 | (3)% | 29,292\nWearables, Home and Accessories | 37,005 | (7)% | 39,845 | (3)% | 41,241\nServices (1) | 96,169 | 13% | 85,200 | 9% | 78,129\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales were relatively flat during 2024 compared to 2023.\nMac\nMac net sales increased during 2024 compared to 2023 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPad Pro and the entry-level iPad models, partially offset by higher net sales of iPad Air.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2024 compared to 2023 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.\nApple Inc. | 2024 Form 10-K | 23"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1",
+      "shown": "Apple 10-K FY2025 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n2025 | Change | 2024 | Change | 2023\niPhone | $209,586 | 4% | $201,183 | —% | $200,583\nMac | 33,708 | 12% | 29,984 | 2% | 29,357\niPad | 28,023 | 5% | 26,694 | (6)% | 28,300\nWearables, Home and Accessories | 35,686 | (4)% | 37,005 | (7)% | 39,845\nServices (1) | 109,158 | 14% | 96,169 | 13% | 85,200\nTotal net sales | $416,161 | 6% | $391,035 | 2% | $383,285\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models.\nMac\nMac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\niPad\niPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables.\nServices\nServices net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services.\nApple Inc. | 2025 Form 10-K | 23"
+     }
+    ]
+   },
+   {
+    "text": "Wearables, Home and Accessories revenue was $38,367 million in FY2021, increased to $41,241 million in FY2022, decreased to $39,845 million in FY2023, decreased further to $37,005 million in FY2024, and decreased again to $35,686 million in FY2025.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1",
+      "shown": "Apple 10-K FY2021 | Management's Discussion and Analysis | page 21\n…iPhone (1) | $191,973 | 39% | $137,781 | (3)% | $142,381\nMac (1) | 35,190 | 23% | 28,622 | 11% | 25,740\niPad (1) | 31,862 | 34% | 23,724 | 11% | 21,280\nWearables, Home and Accessories (1)(2) | 38,367 | 25% | 30,620 | 25% | 24,482\nServices (3) | 68,425 | 27% | 53,768 | 16% | 46,291\nTotal net sales | $365,817 | 33% | $274,515 | 6% | $260,174\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2021 compared to 2020 due primarily to higher net sales from the Company’s new iPhone models launched in the first quarter and fourth quarter of 2021 and a favorable mix of iPhone sales.\nMac\nMac net sales increased during 2021 compared to 2020 due primarily to higher net sales of MacBook Air, MacBook Pro and iMac.\niPad\niPad net sales increased during 2021 compared to 2020 due primarily to higher net sales of iPad Air and iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2021 compared to 2020 due primarily to higher net sales of accessories and Apple Watch.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2022-09-24_p023_1",
+      "shown": "Apple 10-K FY2022 | Management's Discussion and Analysis | page 21\n…2022 | Change | 2021 | Change | 2020\nNet sales by category:\niPhone (1) | $205,489 | 7% | $191,973 | 39% | $137,781\nMac (1) | 40,177 | 14% | 35,190 | 23% | 28,622\niPad (1) | 29,292 | (8)% | 31,862 | 34% | 23,724\nWearables, Home and Accessories (1)(2) | 41,241 | 7% | 38,367 | 25% | 30,620\nServices (3) | 78,129 | 14% | 68,425 | 27% | 53,768\nTotal net sales | $394,328 | 8% | $365,817 | 33% | $274,515\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2022 compared to 2021 due primarily to higher net sales from the Company’s new iPhone models released since the beginning of the fourth quarter of 2021.\nMac\nMac net sales increased during 2022 compared to 2021 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2022 compared to 2021 due primarily to lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2022 compared to 2021 due primarily to higher net sales of Apple Watch and AirPods.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2023-09-30_p024_1",
+      "shown": "Apple 10-K FY2023 | Management's Discussion and Analysis | page 22\n…2023 | Change | 2022 | Change | 2021\nNet sales by category:\niPhone (1) | $200,583 | (2)% | $205,489 | 7% | $191,973\nMac (1) | 29,357 | (27)% | 40,177 | 14% | 35,190\niPad (1) | 28,300 | (3)% | 29,292 | (8)% | 31,862\nWearables, Home and Accessories (1) | 39,845 | (3)% | 41,241 | 7% | 38,367\nServices (2) | 85,200 | 9% | 78,129 | 14% | 68,425\nTotal net sales | $383,285 | (3)% | $394,328 | 8% | $365,817\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales decreased 2% or $4.9 billion during 2023 compared to 2022 due to lower net sales of non-Pro iPhone models, partially offset by higher net sales of Pro iPhone models.\nMac\nMac net sales decreased 27% or $10.8 billion during 2023 compared to 2022 due primarily to lower net sales of laptops.\niPad\niPad net sales decreased 3% or $1.0 billion during 2023 compared to 2022 due primarily to lower net sales of iPad mini and iPad Air, partially offset by the combined net sales of iPad 9th and 10th generation.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased 3% or $1.4 billion during 2023 compared to 2022 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased 9% or $7.1 billion during 2023 compared to 2022 due to higher net sales across all lines of business.\nApple Inc. | 2023 Form 10-K | 22"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2024-09-28_p025_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions):\n2024 | Change | 2023 | Change | 2022\niPhone | $201,183 | —% | $200,583 | (2)% | $205,489\nMac | 29,984 | 2% | 29,357 | (27)% | 40,177\niPad | 26,694 | (6)% | 28,300 | (3)% | 29,292\nWearables, Home and Accessories | 37,005 | (7)% | 39,845 | (3)% | 41,241\nServices (1) | 96,169 | 13% | 85,200 | 9% | 78,129\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales were relatively flat during 2024 compared to 2023.\nMac\nMac net sales increased during 2024 compared to 2023 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPad Pro and the entry-level iPad models, partially offset by higher net sales of iPad Air.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2024 compared to 2023 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.\nApple Inc. | 2024 Form 10-K | 23"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1",
+      "shown": "Apple 10-K FY2025 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n2025 | Change | 2024 | Change | 2023\niPhone | $209,586 | 4% | $201,183 | —% | $200,583\nMac | 33,708 | 12% | 29,984 | 2% | 29,357\niPad | 28,023 | 5% | 26,694 | (6)% | 28,300\nWearables, Home and Accessories | 35,686 | (4)% | 37,005 | (7)% | 39,845\nServices (1) | 109,158 | 14% | 96,169 | 13% | 85,200\nTotal net sales | $416,161 | 6% | $391,035 | 2% | $383,285\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models.\nMac\nMac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\niPad\niPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables.\nServices\nServices net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services.\nApple Inc. | 2025 Form 10-K | 23"
+     }
+    ]
+   },
+   {
+    "text": "Services revenue was $68,425 million in FY2021, increased to $78,129 million in FY2022, increased further to $85,200 million in FY2023, increased again to $96,169 million in FY2024, and increased to $109,158 million in FY2025.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2021-09-25_p023_1",
+      "shown": "Apple 10-K FY2021 | Management's Discussion and Analysis | page 21\n…iPhone (1) | $191,973 | 39% | $137,781 | (3)% | $142,381\nMac (1) | 35,190 | 23% | 28,622 | 11% | 25,740\niPad (1) | 31,862 | 34% | 23,724 | 11% | 21,280\nWearables, Home and Accessories (1)(2) | 38,367 | 25% | 30,620 | 25% | 24,482\nServices (3) | 68,425 | 27% | 53,768 | 16% | 46,291\nTotal net sales | $365,817 | 33% | $274,515 | 6% | $260,174\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2021 compared to 2020 due primarily to higher net sales from the Company’s new iPhone models launched in the first quarter and fourth quarter of 2021 and a favorable mix of iPhone sales.\nMac\nMac net sales increased during 2021 compared to 2020 due primarily to higher net sales of MacBook Air, MacBook Pro and iMac.\niPad\niPad net sales increased during 2021 compared to 2020 due primarily to higher net sales of iPad Air and iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2021 compared to 2020 due primarily to higher net sales of accessories and Apple Watch.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 21,
+      "chunk_id": "AAPL_2022-09-24_p023_1",
+      "shown": "Apple 10-K FY2022 | Management's Discussion and Analysis | page 21\n…2022 | Change | 2021 | Change | 2020\nNet sales by category:\niPhone (1) | $205,489 | 7% | $191,973 | 39% | $137,781\nMac (1) | 40,177 | 14% | 35,190 | 23% | 28,622\niPad (1) | 29,292 | (8)% | 31,862 | 34% | 23,724\nWearables, Home and Accessories (1)(2) | 41,241 | 7% | 38,367 | 25% | 30,620\nServices (3) | 78,129 | 14% | 68,425 | 27% | 53,768\nTotal net sales | $394,328 | 8% | $365,817 | 33% | $274,515\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Wearables, Home and Accessories net sales include sales of AirPods, Apple TV, Apple Watch, Beats products, HomePod mini and accessories.\n(3)Services net sales include sales from the Company’s advertising, AppleCare, cloud, digital content, payment and other services. Services net sales also include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2022 compared to 2021 due primarily to higher net sales from the Company’s new iPhone models released since the beginning of the fourth quarter of 2021.\nMac\nMac net sales increased during 2022 compared to 2021 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2022 compared to 2021 due primarily to lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales increased during 2022 compared to 2021 due primarily to higher net sales of Apple Watch and AirPods.\nServices…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 22,
+      "chunk_id": "AAPL_2023-09-30_p024_1",
+      "shown": "Apple 10-K FY2023 | Management's Discussion and Analysis | page 22\n…2023 | Change | 2022 | Change | 2021\nNet sales by category:\niPhone (1) | $200,583 | (2)% | $205,489 | 7% | $191,973\nMac (1) | 29,357 | (27)% | 40,177 | 14% | 35,190\niPad (1) | 28,300 | (3)% | 29,292 | (8)% | 31,862\nWearables, Home and Accessories (1) | 39,845 | (3)% | 41,241 | 7% | 38,367\nServices (2) | 85,200 | 9% | 78,129 | 14% | 68,425\nTotal net sales | $383,285 | (3)% | $394,328 | 8% | $365,817\n(1)Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product.\n(2)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales decreased 2% or $4.9 billion during 2023 compared to 2022 due to lower net sales of non-Pro iPhone models, partially offset by higher net sales of Pro iPhone models.\nMac\nMac net sales decreased 27% or $10.8 billion during 2023 compared to 2022 due primarily to lower net sales of laptops.\niPad\niPad net sales decreased 3% or $1.0 billion during 2023 compared to 2022 due primarily to lower net sales of iPad mini and iPad Air, partially offset by the combined net sales of iPad 9th and 10th generation.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased 3% or $1.4 billion during 2023 compared to 2022 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased 9% or $7.1 billion during 2023 compared to 2022 due to higher net sales across all lines of business.\nApple Inc. | 2023 Form 10-K | 22"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2024-09-28_p025_1",
+      "shown": "Apple 10-K FY2024 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions):\n2024 | Change | 2023 | Change | 2022\niPhone | $201,183 | —% | $200,583 | (2)% | $205,489\nMac | 29,984 | 2% | 29,357 | (27)% | 40,177\niPad | 26,694 | (6)% | 28,300 | (3)% | 29,292\nWearables, Home and Accessories | 37,005 | (7)% | 39,845 | (3)% | 41,241\nServices (1) | 96,169 | 13% | 85,200 | 9% | 78,129\nTotal net sales | $391,035 | 2% | $383,285 | (3)% | $394,328\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales were relatively flat during 2024 compared to 2023.\nMac\nMac net sales increased during 2024 compared to 2023 due primarily to higher net sales of laptops.\niPad\niPad net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPad Pro and the entry-level iPad models, partially offset by higher net sales of iPad Air.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2024 compared to 2023 due primarily to lower net sales of Wearables and Accessories.\nServices\nServices net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.\nApple Inc. | 2024 Form 10-K | 23"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 23,
+      "chunk_id": "AAPL_2025-09-27_p025_1",
+      "shown": "Apple 10-K FY2025 | Management's Discussion and Analysis | page 23\nProducts and Services Performance\nThe following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n2025 | Change | 2024 | Change | 2023\niPhone | $209,586 | 4% | $201,183 | —% | $200,583\nMac | 33,708 | 12% | 29,984 | 2% | 29,357\niPad | 28,023 | 5% | 26,694 | (6)% | 28,300\nWearables, Home and Accessories | 35,686 | (4)% | 37,005 | (7)% | 39,845\nServices (1) | 109,158 | 14% | 96,169 | 13% | 85,200\nTotal net sales | $416,161 | 6% | $391,035 | 2% | $383,285\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\niPhone\niPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models.\nMac\nMac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\niPad\niPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables.\nServices\nServices net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services.\nApple Inc. | 2025 Form 10-K | 23"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages contain revenue data for fiscal years ending in 2021 through 2025. No information is available regarding the company's performance prior to FY2021 or subsequent to FY2025.",
+  "dropped": [],
+  "model": "qwen3.5:4b",
+  "seconds_model": 385,
+  "prompt_tokens": 5316
+ },
+ {
+  "number": 2,
+  "question": "Compare Amazon's AWS operating income and margin with North America and International, 2021-2025.",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "AWS operating income was $18,532 million in 2021, increasing to $22,841 million in 2022, then to $24,631 million in 2023, followed by $39,834 million in 2024, and reaching $45,606 million in 2025.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2021-12-31_p024_1",
+      "shown": "Amazon 10-K FY2021 | Management's Discussion and Analysis | page 24\n…Year Ended December 31,\n2020 | 2021\nOperating Income (Loss):\nNorth America | $8,651 | $7,271\nInternational | 717 | (924)\nAWS | 13,531 | 18,532\nConsolidated | $22,899 | $24,879\nOperating income was $22.9 billion and $24.9 billion for 2020 and 2021. We believe that operating income (loss) is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe decrease in North America operating income in absolute dollars in 2021, compared to the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, increased carrier rates, and fulfillment network inefficiencies, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign exchange rates impacted operating income by $8 million and $88 million for 2020 and 2021.\nThe International operating loss in 2021, as compared to the operating income in the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, and increased carrier rates, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign exchange rates impacted operating income (loss) by $411 million and $435 million for 2020 and 2021.…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 25,
+      "chunk_id": "AMZN_2023-12-31_p025_1",
+      "shown": "Amazon 10-K FY2023 | Management's Discussion and Analysis | page 25\n…Operating Income (Loss)\nOperating income (loss) by segment is as follows (in millions):\nYear Ended December 31,\n2022 | 2023\nOperating Income (Loss)\nNorth America | $(2,847) | $14,877\nInternational | (7,746) | (2,656)\nAWS | 22,841 | 24,631\nConsolidated | $12,248 | $36,852\nOperating income was $12.2 billion and $36.9 billion for 2022 and 2023. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe North America operating income in 2023, as compared to the operating loss in the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased shipping and fulfillment costs and increased technology and infrastructure costs.\nThe decrease in International operating loss in absolute dollars in 2023, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment and shipping costs and increased technology and infrastructure costs. Changes in foreign exchange rates positively impacted operating loss by $246 million in 2023.\nThe increase in AWS operating income in absolute dollars in 2023, compared to the prior year, is primarily due to increased sales, partially offset by increased payroll and related expenses and spending on technology infrastructure, both of which were primarily driven by additional investments to support AWS business growth. Changes in foreign exchange rates positively impacted operating income by $220 million in 2023.\n25"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 68,
+      "chunk_id": "AMZN_2025-12-31_p068_1",
+      "shown": "Amazon 10-K FY2025 | Financial Statements and Supplementary Data | page 68\nTable of Contents\nNorth America\nThe North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.\nInternational\nThe International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.\nAWS\nThe AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.\nInformation on reportable segments and reconciliation to consolidated net income is as follows (in millions):\nYear Ended December 31,\n2023 | 2024 | 2025\nNorth America\nNet sales | $352,828 | $387,497 | $426,305\nOperating expenses | 337,951 | 362,530 | 396,686\nOperating income | $14,877 | $24,967 | $29,619\nInternational\nNet sales | $131,200 | $142,906 | $161,894\nOperating expenses | 133,856 | 139,114 | 157,144\nOperating income (loss) | $( 2,656 ) | $3,792 | $4,750\nAWS\nNet sales | $90,757 | $107,556 | $128,725\nOperating expenses | 66,126 | 67,722 | 83,119\nOperating income | $24,631 | $39,834 | $45,606…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2022-12-31_p024_1",
+      "shown": "Amazon 10-K FY2022 | Management's Discussion and Analysis | page 24\n…Year Ended December 31,\n2021 | 2022\nOperating Income (Loss)\nNorth America | $7,271 | $(2,847)\nInternational | (924) | (7,746)\nAWS | 18,532 | 22,841\nConsolidated | $24,879 | $12,248\nOperating income was $24.9 billion and $12.2 billion for 2021 and 2022. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe North America operating loss in 2022, as compared to the operating income in the prior year, is primarily due to increased fulfillment and shipping costs, due in part to increases in investments in our fulfillment network, transportation costs, and wage rates and incentives, increased technology and content costs, and growth in certain operating expenses, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign currency exchange rates positively impacted operating loss by $274 million in 2022.\nThe increase in International operating loss in absolute dollars in 2022, compared to the prior year, is primarily due to increased fulfillment and shipping costs, due in part to increases in investments in our fulfillment network, transportation costs, and wage rates and incentives, increased technology and content costs, and growth in certain operating expenses, partially offset by increased advertising sales and increased unit sales, including sales by third-party sellers. Changes in foreign currency exchange rates negatively impacted operating loss by $857 million in 2022."
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 27,
+      "chunk_id": "AMZN_2025-12-31_p027_1",
+      "shown": "Amazon 10-K FY2025 | Management's Discussion and Analysis | page 27\n…Year Ended December 31,\n2024 | 2025\nOperating Income\nNorth America | $24,967 | $29,619\nInternational | 3,792 | 4,750\nAWS | 39,834 | 45,606\nConsolidated | $68,593 | $79,975\nOperating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8 billion was recorded in Q3 2025, of estimated severance costs primarily related to planned role eliminations. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services. For more information on the operating expenses that impact segment operating income, see “Operating Expenses” and the descriptions of operating expense line item changes on pages 25 to 27, and “Note 10 — Segment Information” on page 67.\nThe increase in North America operating income in 2025, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment, technology and infrastructure, shipping, and other operating costs. Changes in foreign exchange rates negatively impacted operating income by $204 million in 2025.\nThe increase in International operating income in 2025, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment and shipping costs. Changes in foreign exchange rates positively impacted operating income by $903 million in 2025.…"
+     }
+    ]
+   },
+   {
+    "text": "North America operating income was $7,271 million in 2021, decreased to a loss of $(2,847) million in 2022, increased to $14,877 million in 2023, rose to $24,967 million in 2024, and grew to $29,619 million in 2025.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2021-12-31_p024_1",
+      "shown": "Amazon 10-K FY2021 | Management's Discussion and Analysis | page 24\n…Year Ended December 31,\n2020 | 2021\nOperating Income (Loss):\nNorth America | $8,651 | $7,271\nInternational | 717 | (924)\nAWS | 13,531 | 18,532\nConsolidated | $22,899 | $24,879\nOperating income was $22.9 billion and $24.9 billion for 2020 and 2021. We believe that operating income (loss) is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe decrease in North America operating income in absolute dollars in 2021, compared to the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, increased carrier rates, and fulfillment network inefficiencies, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign exchange rates impacted operating income by $8 million and $88 million for 2020 and 2021.\nThe International operating loss in 2021, as compared to the operating income in the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, and increased carrier rates, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign exchange rates impacted operating income (loss) by $411 million and $435 million for 2020 and 2021.…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 25,
+      "chunk_id": "AMZN_2023-12-31_p025_1",
+      "shown": "Amazon 10-K FY2023 | Management's Discussion and Analysis | page 25\n…Operating Income (Loss)\nOperating income (loss) by segment is as follows (in millions):\nYear Ended December 31,\n2022 | 2023\nOperating Income (Loss)\nNorth America | $(2,847) | $14,877\nInternational | (7,746) | (2,656)\nAWS | 22,841 | 24,631\nConsolidated | $12,248 | $36,852\nOperating income was $12.2 billion and $36.9 billion for 2022 and 2023. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe North America operating income in 2023, as compared to the operating loss in the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased shipping and fulfillment costs and increased technology and infrastructure costs.\nThe decrease in International operating loss in absolute dollars in 2023, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment and shipping costs and increased technology and infrastructure costs. Changes in foreign exchange rates positively impacted operating loss by $246 million in 2023.\nThe increase in AWS operating income in absolute dollars in 2023, compared to the prior year, is primarily due to increased sales, partially offset by increased payroll and related expenses and spending on technology infrastructure, both of which were primarily driven by additional investments to support AWS business growth. Changes in foreign exchange rates positively impacted operating income by $220 million in 2023.\n25"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 66,
+      "chunk_id": "AMZN_2024-12-31_p066_1",
+      "shown": "Amazon 10-K FY2024 | Financial Statements and Supplementary Data | page 66\nTable of Contents\nNorth America\nThe North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.\nInternational\nThe International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.\nAWS\nThe AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.\nInformation on reportable segments and reconciliation to consolidated net income (loss) is as follows (in millions):\nYear Ended December 31,\n2022 | 2023 | 2024\nNorth America\nNet sales | $315,880 | $352,828 | $387,497\nOperating expenses | 318,727 | 337,951 | 362,530\nOperating income (loss) | $( 2,847 ) | $14,877 | $24,967\nInternational\nNet sales | $118,007 | $131,200 | $142,906\nOperating expenses | 125,753 | 133,856 | 139,114\nOperating income (loss) | $( 7,746 ) | $( 2,656 ) | $3,792\nAWS\nNet sales | $80,096 | $90,757 | $107,556\nOperating expenses | 57,255 | 66,126 | 67,722…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 68,
+      "chunk_id": "AMZN_2025-12-31_p068_1",
+      "shown": "Amazon 10-K FY2025 | Financial Statements and Supplementary Data | page 68\nTable of Contents\nNorth America\nThe North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.\nInternational\nThe International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.\nAWS\nThe AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.\nInformation on reportable segments and reconciliation to consolidated net income is as follows (in millions):\nYear Ended December 31,\n2023 | 2024 | 2025\nNorth America\nNet sales | $352,828 | $387,497 | $426,305\nOperating expenses | 337,951 | 362,530 | 396,686\nOperating income | $14,877 | $24,967 | $29,619\nInternational\nNet sales | $131,200 | $142,906 | $161,894\nOperating expenses | 133,856 | 139,114 | 157,144\nOperating income (loss) | $( 2,656 ) | $3,792 | $4,750\nAWS\nNet sales | $90,757 | $107,556 | $128,725\nOperating expenses | 66,126 | 67,722 | 83,119\nOperating income | $24,631 | $39,834 | $45,606…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2022-12-31_p024_1",
+      "shown": "Amazon 10-K FY2022 | Management's Discussion and Analysis | page 24\n…Year Ended December 31,\n2021 | 2022\nOperating Income (Loss)\nNorth America | $7,271 | $(2,847)\nInternational | (924) | (7,746)\nAWS | 18,532 | 22,841\nConsolidated | $24,879 | $12,248\nOperating income was $24.9 billion and $12.2 billion for 2021 and 2022. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe North America operating loss in 2022, as compared to the operating income in the prior year, is primarily due to increased fulfillment and shipping costs, due in part to increases in investments in our fulfillment network, transportation costs, and wage rates and incentives, increased technology and content costs, and growth in certain operating expenses, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign currency exchange rates positively impacted operating loss by $274 million in 2022.\nThe increase in International operating loss in absolute dollars in 2022, compared to the prior year, is primarily due to increased fulfillment and shipping costs, due in part to increases in investments in our fulfillment network, transportation costs, and wage rates and incentives, increased technology and content costs, and growth in certain operating expenses, partially offset by increased advertising sales and increased unit sales, including sales by third-party sellers. Changes in foreign currency exchange rates negatively impacted operating loss by $857 million in 2022."
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 27,
+      "chunk_id": "AMZN_2025-12-31_p027_1",
+      "shown": "Amazon 10-K FY2025 | Management's Discussion and Analysis | page 27\n…Year Ended December 31,\n2024 | 2025\nOperating Income\nNorth America | $24,967 | $29,619\nInternational | 3,792 | 4,750\nAWS | 39,834 | 45,606\nConsolidated | $68,593 | $79,975\nOperating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8 billion was recorded in Q3 2025, of estimated severance costs primarily related to planned role eliminations. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services. For more information on the operating expenses that impact segment operating income, see “Operating Expenses” and the descriptions of operating expense line item changes on pages 25 to 27, and “Note 10 — Segment Information” on page 67.\nThe increase in North America operating income in 2025, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment, technology and infrastructure, shipping, and other operating costs. Changes in foreign exchange rates negatively impacted operating income by $204 million in 2025.\nThe increase in International operating income in 2025, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment and shipping costs. Changes in foreign exchange rates positively impacted operating income by $903 million in 2025.…"
+     }
+    ]
+   },
+   {
+    "text": "International operating income was a loss of $(924) million in 2021, decreased to a larger loss of $(7,746) million in 2022, increased to a smaller loss of $(2,656) million in 2023, turned positive at $3,792 million in 2024, and rose to $4,750 million in 2025.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2021-12-31_p024_1",
+      "shown": "Amazon 10-K FY2021 | Management's Discussion and Analysis | page 24\n…Year Ended December 31,\n2020 | 2021\nOperating Income (Loss):\nNorth America | $8,651 | $7,271\nInternational | 717 | (924)\nAWS | 13,531 | 18,532\nConsolidated | $22,899 | $24,879\nOperating income was $22.9 billion and $24.9 billion for 2020 and 2021. We believe that operating income (loss) is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe decrease in North America operating income in absolute dollars in 2021, compared to the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, increased carrier rates, and fulfillment network inefficiencies, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign exchange rates impacted operating income by $8 million and $88 million for 2020 and 2021.\nThe International operating loss in 2021, as compared to the operating income in the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, and increased carrier rates, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign exchange rates impacted operating income (loss) by $411 million and $435 million for 2020 and 2021.…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2023,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 25,
+      "chunk_id": "AMZN_2023-12-31_p025_1",
+      "shown": "Amazon 10-K FY2023 | Management's Discussion and Analysis | page 25\n…Operating Income (Loss)\nOperating income (loss) by segment is as follows (in millions):\nYear Ended December 31,\n2022 | 2023\nOperating Income (Loss)\nNorth America | $(2,847) | $14,877\nInternational | (7,746) | (2,656)\nAWS | 22,841 | 24,631\nConsolidated | $12,248 | $36,852\nOperating income was $12.2 billion and $36.9 billion for 2022 and 2023. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe North America operating income in 2023, as compared to the operating loss in the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased shipping and fulfillment costs and increased technology and infrastructure costs.\nThe decrease in International operating loss in absolute dollars in 2023, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment and shipping costs and increased technology and infrastructure costs. Changes in foreign exchange rates positively impacted operating loss by $246 million in 2023.\nThe increase in AWS operating income in absolute dollars in 2023, compared to the prior year, is primarily due to increased sales, partially offset by increased payroll and related expenses and spending on technology infrastructure, both of which were primarily driven by additional investments to support AWS business growth. Changes in foreign exchange rates positively impacted operating income by $220 million in 2023.\n25"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 66,
+      "chunk_id": "AMZN_2024-12-31_p066_1",
+      "shown": "Amazon 10-K FY2024 | Financial Statements and Supplementary Data | page 66\nTable of Contents\nNorth America\nThe North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.\nInternational\nThe International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.\nAWS\nThe AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.\nInformation on reportable segments and reconciliation to consolidated net income (loss) is as follows (in millions):\nYear Ended December 31,\n2022 | 2023 | 2024\nNorth America\nNet sales | $315,880 | $352,828 | $387,497\nOperating expenses | 318,727 | 337,951 | 362,530\nOperating income (loss) | $( 2,847 ) | $14,877 | $24,967\nInternational\nNet sales | $118,007 | $131,200 | $142,906\nOperating expenses | 125,753 | 133,856 | 139,114\nOperating income (loss) | $( 7,746 ) | $( 2,656 ) | $3,792\nAWS\nNet sales | $80,096 | $90,757 | $107,556\nOperating expenses | 57,255 | 66,126 | 67,722…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 68,
+      "chunk_id": "AMZN_2025-12-31_p068_1",
+      "shown": "Amazon 10-K FY2025 | Financial Statements and Supplementary Data | page 68\nTable of Contents\nNorth America\nThe North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.\nInternational\nThe International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.\nAWS\nThe AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.\nInformation on reportable segments and reconciliation to consolidated net income is as follows (in millions):\nYear Ended December 31,\n2023 | 2024 | 2025\nNorth America\nNet sales | $352,828 | $387,497 | $426,305\nOperating expenses | 337,951 | 362,530 | 396,686\nOperating income | $14,877 | $24,967 | $29,619\nInternational\nNet sales | $131,200 | $142,906 | $161,894\nOperating expenses | 133,856 | 139,114 | 157,144\nOperating income (loss) | $( 2,656 ) | $3,792 | $4,750\nAWS\nNet sales | $90,757 | $107,556 | $128,725\nOperating expenses | 66,126 | 67,722 | 83,119\nOperating income | $24,631 | $39,834 | $45,606…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2022,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 24,
+      "chunk_id": "AMZN_2022-12-31_p024_1",
+      "shown": "Amazon 10-K FY2022 | Management's Discussion and Analysis | page 24\n…Year Ended December 31,\n2021 | 2022\nOperating Income (Loss)\nNorth America | $7,271 | $(2,847)\nInternational | (924) | (7,746)\nAWS | 18,532 | 22,841\nConsolidated | $24,879 | $12,248\nOperating income was $24.9 billion and $12.2 billion for 2021 and 2022. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services.\nThe North America operating loss in 2022, as compared to the operating income in the prior year, is primarily due to increased fulfillment and shipping costs, due in part to increases in investments in our fulfillment network, transportation costs, and wage rates and incentives, increased technology and content costs, and growth in certain operating expenses, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales. Changes in foreign currency exchange rates positively impacted operating loss by $274 million in 2022.\nThe increase in International operating loss in absolute dollars in 2022, compared to the prior year, is primarily due to increased fulfillment and shipping costs, due in part to increases in investments in our fulfillment network, transportation costs, and wage rates and incentives, increased technology and content costs, and growth in certain operating expenses, partially offset by increased advertising sales and increased unit sales, including sales by third-party sellers. Changes in foreign currency exchange rates negatively impacted operating loss by $857 million in 2022."
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 27,
+      "chunk_id": "AMZN_2025-12-31_p027_1",
+      "shown": "Amazon 10-K FY2025 | Management's Discussion and Analysis | page 27\n…Year Ended December 31,\n2024 | 2025\nOperating Income\nNorth America | $24,967 | $29,619\nInternational | 3,792 | 4,750\nAWS | 39,834 | 45,606\nConsolidated | $68,593 | $79,975\nOperating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8 billion was recorded in Q3 2025, of estimated severance costs primarily related to planned role eliminations. We believe that operating income is a more meaningful measure than gross profit and gross margin due to the diversity of our product categories and services. For more information on the operating expenses that impact segment operating income, see “Operating Expenses” and the descriptions of operating expense line item changes on pages 25 to 27, and “Note 10 — Segment Information” on page 67.\nThe increase in North America operating income in 2025, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment, technology and infrastructure, shipping, and other operating costs. Changes in foreign exchange rates negatively impacted operating income by $204 million in 2025.\nThe increase in International operating income in 2025, compared to the prior year, is primarily due to increased unit sales and increased advertising sales, partially offset by increased fulfillment and shipping costs. Changes in foreign exchange rates positively impacted operating income by $903 million in 2025.…"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages do not contain specific gross profit or gross margin figures for the AWS segment; they only provide operating income and operating margin data. Additionally, while sales figures are available for North America and International segments in 2021-2025, explicit sales figures for the AWS segment are only present in the 2024 and 2025 filings (passages [4] and [5]), missing specific sales numbers for 2021, 2022, and 2023 required to calculate margins for those years using a gross profit definition.",
+  "dropped": [
+   {
+    "text": "AWS operating margin was approximately 48.3% in 2021 ($18,532 million income on $38,697 million sales), increased to 51.0% in 2022 ($22,841 million on $44,738 million sales), and continued rising to 51.4% in 2023 ($24,631 million on $48,098 million sales).",
+    "reason": "numbers not in cited passage: 22841, 38697, 44738, 48.3, 48098, 51.0, 51.4"
+   },
+   {
+    "text": "AWS operating margin increased to 57.4% in 2024 ($39,834 million income on $69,590 million sales) and further to 58.1% in 2025 ($45,606 million income on $78,529 million sales).",
+    "reason": "numbers not in cited passage: 57.4, 58.1, 69590, 78529"
+   },
+   {
+    "text": "North America operating margin was approximately 18.9% in 2021 ($7,271 million income on $38,697 million sales), decreased to a negative 7.4% in 2022 (loss of $(2,847) million on $44,738 million sales), and increased to 35.7% in 2023 ($14,877 million on $41,965 million sales).",
+    "reason": "numbers not in cited passage: 18.9, 35.7, 38697, 41965, 44738, 7.4"
+   },
+   {
+    "text": "North America operating margin increased to 64.2% in 2024 ($24,967 million income on $38,903 million sales) and reached 69.5% in 2025 ($29,619 million income on $42,630 million sales).",
+    "reason": "numbers not in cited passage: 38903, 42630, 64.2, 69.5"
+   },
+   {
+    "text": "International operating margin was approximately 1.9% in 2021 ($717 million income on $38,697 million sales), decreased to a negative 17.3% in 2022 (loss of $(7,746) million on $44,738 million sales), and increased to 2.6% in 2023 ($2,656 million income on $41,965 million sales).",
+    "reason": "numbers not in cited passage: 1.9, 17.3, 2.6, 38697, 41965, 44738"
+   },
+   {
+    "text": "International operating margin increased to 8.3% in 2024 ($3,792 million income on $45,694 million sales) and reached 9.1% in 2025 ($4,750 million income on $52,197 million sales).",
+    "reason": "numbers not in cited passage: 45694, 52197, 8.3, 9.1"
+   }
+  ],
+  "model": "qwen3.5:4b",
+  "seconds_model": 434,
+  "prompt_tokens": 4328
+ },
+ {
+  "number": 5,
+  "question": "How did Alphabet's revenue trends differ across Search, YouTube ads, Network, subscriptions/devices and Cloud?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "Google Search & other revenues increased $23.1 billion from FY2023 to FY2024, driven by increases in search queries, advertiser spending, and improved ad formats.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 36,
+      "chunk_id": "GOOGL_2024-12-31_p037_1",
+      "shown": "Alphabet 10-K FY2024 | Management's Discussion and Analysis | page 36\n…Google advertising | 237,855 | 264,590\nGoogle subscriptions, platforms, and devices | 34,688 | 40,340\nGoogle Services total | 272,543 | 304,930\nGoogle Cloud | 33,088 | 43,229\nOther Bets | 1,527 | 1,648\nHedging gains (losses) | 236 | 211\nTotal revenues | $307,394 | $350,018\nGoogle Services\nGoogle advertising revenues\nGoogle Search & other\nGoogle Search & other revenues increased $23.1 billion from 2023 to 2024. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.\nYouTube ads\nYouTube ads revenues increased $4.6 billion from 2023 to 2024. The growth was driven by our brand advertising products followed by our direct response advertising products, both of which benefited from increased spending by our advertisers.\nGoogle Network\nGoogle Network revenues decreased $953 million from 2023 to 2024, primarily driven by a decrease in Google Ad Manager and AdMob revenues. Additionally, Google Network revenues were adversely affected by changes in foreign currency exchange rates.\nMonetization Metrics\nThe following table presents changes in monetization metrics for Google Search & other revenues (paid clicks and cost-per-click) and Google Network revenues (impressions and cost-per-impression), expressed as a percentage, from 2023 to 2024:\nGoogle Search & other\nPaid clicks change | 5%\nCost-per-click change | 7%\nGoogle Network\nImpressions change | (11)%\nCost-per-impression change | 10%…"
+     }
+    ]
+   },
+   {
+    "text": "YouTube ads revenues increased $4.6 billion from FY2023 to FY2024, driven by brand and direct response advertising products benefiting from increased advertiser spending.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 36,
+      "chunk_id": "GOOGL_2024-12-31_p037_1",
+      "shown": "Alphabet 10-K FY2024 | Management's Discussion and Analysis | page 36\n…Google advertising | 237,855 | 264,590\nGoogle subscriptions, platforms, and devices | 34,688 | 40,340\nGoogle Services total | 272,543 | 304,930\nGoogle Cloud | 33,088 | 43,229\nOther Bets | 1,527 | 1,648\nHedging gains (losses) | 236 | 211\nTotal revenues | $307,394 | $350,018\nGoogle Services\nGoogle advertising revenues\nGoogle Search & other\nGoogle Search & other revenues increased $23.1 billion from 2023 to 2024. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.\nYouTube ads\nYouTube ads revenues increased $4.6 billion from 2023 to 2024. The growth was driven by our brand advertising products followed by our direct response advertising products, both of which benefited from increased spending by our advertisers.\nGoogle Network\nGoogle Network revenues decreased $953 million from 2023 to 2024, primarily driven by a decrease in Google Ad Manager and AdMob revenues. Additionally, Google Network revenues were adversely affected by changes in foreign currency exchange rates.\nMonetization Metrics\nThe following table presents changes in monetization metrics for Google Search & other revenues (paid clicks and cost-per-click) and Google Network revenues (impressions and cost-per-impression), expressed as a percentage, from 2023 to 2024:\nGoogle Search & other\nPaid clicks change | 5%\nCost-per-click change | 7%\nGoogle Network\nImpressions change | (11)%\nCost-per-impression change | 10%…"
+     }
+    ]
+   },
+   {
+    "text": "Google Network revenues decreased $953 million from FY2023 to FY2024, primarily due to decreases in Google Ad Manager and AdMob revenues and adverse foreign currency exchange rate effects.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 36,
+      "chunk_id": "GOOGL_2024-12-31_p037_1",
+      "shown": "Alphabet 10-K FY2024 | Management's Discussion and Analysis | page 36\n…Google advertising | 237,855 | 264,590\nGoogle subscriptions, platforms, and devices | 34,688 | 40,340\nGoogle Services total | 272,543 | 304,930\nGoogle Cloud | 33,088 | 43,229\nOther Bets | 1,527 | 1,648\nHedging gains (losses) | 236 | 211\nTotal revenues | $307,394 | $350,018\nGoogle Services\nGoogle advertising revenues\nGoogle Search & other\nGoogle Search & other revenues increased $23.1 billion from 2023 to 2024. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.\nYouTube ads\nYouTube ads revenues increased $4.6 billion from 2023 to 2024. The growth was driven by our brand advertising products followed by our direct response advertising products, both of which benefited from increased spending by our advertisers.\nGoogle Network\nGoogle Network revenues decreased $953 million from 2023 to 2024, primarily driven by a decrease in Google Ad Manager and AdMob revenues. Additionally, Google Network revenues were adversely affected by changes in foreign currency exchange rates.\nMonetization Metrics\nThe following table presents changes in monetization metrics for Google Search & other revenues (paid clicks and cost-per-click) and Google Network revenues (impressions and cost-per-impression), expressed as a percentage, from 2023 to 2024:\nGoogle Search & other\nPaid clicks change | 5%\nCost-per-click change | 7%\nGoogle Network\nImpressions change | (11)%\nCost-per-impression change | 10%…"
+     }
+    ]
+   },
+   {
+    "text": "Google subscriptions, platforms, and devices revenues increased $7.7 billion from FY2024 to FY2025, primarily driven by growth in paid subscriptions across YouTube services and Google One.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 34,
+      "chunk_id": "GOOGL_2025-12-31_p035_1",
+      "shown": "Alphabet 10-K FY2025 | Management's Discussion and Analysis | page 34\n…Google Search & other\nPaid clicks change | 6%\nCost-per-click change | 7%\nGoogle Network\nImpressions change | (7)%\nCost-per-impression change | 7%\nChanges in paid clicks and impressions are driven by a number of interrelated factors, including changes in advertiser spending; ongoing product and policy changes; and, as it relates to paid clicks, fluctuations in search queries resulting from changes in user adoption and usage, primarily on mobile devices.\nChanges in cost-per-click and cost-per-impression are driven by a number of interrelated factors including changes in device mix, geographic mix, advertiser spending, ongoing product and policy changes, product mix, property mix, and changes in foreign currency exchange rates.\nGoogle Subscriptions, Platforms, and Devices\nGoogle subscriptions, platforms, and devices revenues increased $7.7 billion from 2024 to 2025. The growth was primarily driven by an increase in subscriptions revenues. This increase was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.\nGoogle Cloud\nGoogle Cloud revenues increased $15.5 billion from 2024 to 2025, primarily driven by growth in Google Cloud Platform largely from infrastructure and platform services.\nRevenues by Geography\nThe following table presents revenues by geography as a percentage of revenues, determined based on the addresses of our customers:\nYear Ended December 31,\n2024 | 2025\nUnited States | 49% | 48%\nEMEA (1) | 29% | 29%\nAPAC (1) | 16% | 17%\nOther Americas (1) | 6% | 6%\nHedging gains (losses) | 0% | 0%…"
+     }
+    ]
+   },
+   {
+    "text": "Google Cloud revenues increased $15.5 billion from FY2024 to FY2025, primarily driven by growth in Google Cloud Platform infrastructure and platform services.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 34,
+      "chunk_id": "GOOGL_2025-12-31_p035_1",
+      "shown": "Alphabet 10-K FY2025 | Management's Discussion and Analysis | page 34\n…Google Search & other\nPaid clicks change | 6%\nCost-per-click change | 7%\nGoogle Network\nImpressions change | (7)%\nCost-per-impression change | 7%\nChanges in paid clicks and impressions are driven by a number of interrelated factors, including changes in advertiser spending; ongoing product and policy changes; and, as it relates to paid clicks, fluctuations in search queries resulting from changes in user adoption and usage, primarily on mobile devices.\nChanges in cost-per-click and cost-per-impression are driven by a number of interrelated factors including changes in device mix, geographic mix, advertiser spending, ongoing product and policy changes, product mix, property mix, and changes in foreign currency exchange rates.\nGoogle Subscriptions, Platforms, and Devices\nGoogle subscriptions, platforms, and devices revenues increased $7.7 billion from 2024 to 2025. The growth was primarily driven by an increase in subscriptions revenues. This increase was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.\nGoogle Cloud\nGoogle Cloud revenues increased $15.5 billion from 2024 to 2025, primarily driven by growth in Google Cloud Platform largely from infrastructure and platform services.\nRevenues by Geography\nThe following table presents revenues by geography as a percentage of revenues, determined based on the addresses of our customers:\nYear Ended December 31,\n2024 | 2025\nUnited States | 49% | 48%\nEMEA (1) | 29% | 29%\nAPAC (1) | 16% | 17%\nOther Americas (1) | 6% | 6%\nHedging gains (losses) | 0% | 0%…"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages do not contain specific dollar amount trends or year-over-year comparisons for Alphabet's revenue specifically from the 'Search' segment alone, nor do they provide a combined trend analysis across all five categories (Search, YouTube ads, Network, subscriptions/devices, and Cloud) in a single narrative. The data is presented as distinct segments with separate growth figures for specific periods.",
+  "dropped": [],
+  "model": "qwen3.5:4b",
+  "seconds_model": 219,
+  "prompt_tokens": 3670
+ },
+ {
+  "number": 9,
+  "question": "What are each company's main geographic revenue exposures in the latest 10-K, and what changed year over year?",
+  "expect": "answered",
+  "got": "answered_with_limitations",
+  "sentences": [
+   {
+    "text": "Apple's geographic net sales for fiscal year 2025 were $178,353 million in the Americas, $111,032 million in Europe, $64,377 million in Greater China, $28,703 million in Japan, and $33,696 million in the Rest of Asia Pacific.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 47,
+      "chunk_id": "AAPL_2025-09-27_p049_1",
+      "shown": "Apple 10-K FY2025 | Financial Statements and Supplementary Data | page 47\n…The CODM uses segment net sales and operating income information to make certain decisions, such as product and service pricing, and to decide how to allocate resources related to sales activities and marketing investments. Net sales for geographic segments are generally based on the location of customers and sales through the Company’s retail stores located in those geographic locations. Operating income for each segment consists of net sales to third parties, related cost of sales, and operating expenses directly attributable to the segment. The information provided to the CODM for purposes of making decisions and assessing segment performance excludes asset information.\nThe following tables show information by reportable segment for 2025, 2024 and 2023 (in millions):\n2025\nAmericas | Europe | Greater China | Japan | Rest of Asia Pacific | Corporate | Total\nNet sales | $178,353 | $111,032 | $64,377 | $28,703 | $33,696 | $— | $416,161\nCost of sales | ( 95,699 ) | ( 58,617 ) | ( 35,141 ) | ( 13,779 ) | ( 17,724 ) | — | ( 220,960 )\nResearch and development | — | — | — | — | — | ( 34,550 ) | ( 34,550 )\nSelling and marketing | ( 10,174 ) | ( 4,676 ) | ( 2,319 ) | ( 969 ) | ( 1,386 ) | — | ( 19,524 )\nGeneral and administrative | — | — | — | — | — | ( 8,077 ) | ( 8,077 )…"
+     }
+    ]
+   },
+   {
+    "text": "The passages do not provide specific year-over-year figures for Apple's geographic revenue to determine if it increased or decreased; they only state that net sales are based on customer location and retail store locations.",
+    "sources": [
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 47,
+      "chunk_id": "AAPL_2025-09-27_p049_1",
+      "shown": "Apple 10-K FY2025 | Financial Statements and Supplementary Data | page 47\n…The CODM uses segment net sales and operating income information to make certain decisions, such as product and service pricing, and to decide how to allocate resources related to sales activities and marketing investments. Net sales for geographic segments are generally based on the location of customers and sales through the Company’s retail stores located in those geographic locations. Operating income for each segment consists of net sales to third parties, related cost of sales, and operating expenses directly attributable to the segment. The information provided to the CODM for purposes of making decisions and assessing segment performance excludes asset information.\nThe following tables show information by reportable segment for 2025, 2024 and 2023 (in millions):\n2025\nAmericas | Europe | Greater China | Japan | Rest of Asia Pacific | Corporate | Total\nNet sales | $178,353 | $111,032 | $64,377 | $28,703 | $33,696 | $— | $416,161\nCost of sales | ( 95,699 ) | ( 58,617 ) | ( 35,141 ) | ( 13,779 ) | ( 17,724 ) | — | ( 220,960 )\nResearch and development | — | — | — | — | — | ( 34,550 ) | ( 34,550 )\nSelling and marketing | ( 10,174 ) | ( 4,676 ) | ( 2,319 ) | ( 969 ) | ( 1,386 ) | — | ( 19,524 )\nGeneral and administrative | — | — | — | — | — | ( 8,077 ) | ( 8,077 )…"
+     },
+     {
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 46,
+      "chunk_id": "AAPL_2024-09-28_p048_2",
+      "shown": "Apple 10-K FY2024 | Financial Statements and Supplementary Data | page 46\nThe Company evaluates the performance of its reportable segments based on net sales and operating income. Net sales for geographic segments are generally based on the location of customers and sales through the Company’s retail stores located in those geographic locations. Operating income for each segment consists of net sales to third parties, related cost of sales, and operating expenses directly attributable to the segment. The information provided to the Company’s chief operating decision maker for purposes of making decisions and assessing segment performance excludes asset information.\nApple Inc. | 2024 Form 10-K | 46"
+     }
+    ]
+   },
+   {
+    "text": "Amazon reported total unearned revenue of $24.6 billion as of December 31, 2024, which increased from $20.9 billion as of December 31, 2023.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 50,
+      "chunk_id": "AMZN_2024-12-31_p050_1",
+      "shown": "Amazon 10-K FY2024 | Financial Statements and Supplementary Data | page 50\n…Unearned Revenue\nUnearned revenue is recorded when payments are received or due in advance of performing our service obligations and is recognized over the service period. Unearned revenue primarily relates to prepayments of AWS services and Amazon Prime memberships. Our total unearned revenue as of December 31, 2023 was $20.9 billion, of which $14.2 billion was recognized as revenue during the year ended December 31, 2024 and our total unearned revenue as of December 31, 2024 was $24.6 billion. Included in “Other long-term liabilities” on our consolidated balance sheets was $5.7 billion and $6.5 billion of unearned revenue as of December 31, 2023 and 2024.\nAdditionally, we have performance obligations, primarily related to AWS, associated with commitments in customer contracts for future services that have not yet been recognized in our financial statements. For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $177 billion as of December 31, 2024. The weighted average remaining life of our long-term contracts is 4.1 years. However, the amount and timing of revenue recognition is largely driven by customer usage, which can extend beyond the original contractual term.\nOther Long-Term Liabilities…"
+     }
+    ]
+   },
+   {
+    "text": "Amazon reported total unearned revenue of $25.0 billion as of December 31, 2025, which increased from $24.6 billion as of December 31, 2024.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 51,
+      "chunk_id": "AMZN_2025-12-31_p051_1",
+      "shown": "Amazon 10-K FY2025 | Financial Statements and Supplementary Data | page 51\n…Unearned revenue is recorded when payments are received or due in advance of performing our service obligations and is recognized over the service period. Unearned revenue primarily relates to prepayments of AWS services and Amazon Prime memberships. Our total unearned revenue as of December 31, 2024 was $24.6 billion, of which $17.4 billion was recognized as revenue during the year ended December 31, 2025 and our total unearned revenue as of December 31, 2025 was $25.0 billion. Included in “Other long-term liabilities” on our consolidated balance sheets was $6.5 billion and $4.4 billion of unearned revenue as of December 31, 2024 and 2025.\nAdditionally, we have performance obligations, primarily related to AWS, associated with commitments in customer contracts for future services that we expect to fulfill but have not yet been recognized in our financial statements. For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $244 billion as of December 31, 2025. The weighted average remaining life of our long-term contracts is 4.1 years. The amount and timing of revenue recognition will be driven by customer usage and our performance in accordance with contractual obligations, which can extend beyond the original contractual duration and commitment.…"
+     }
+    ]
+   },
+   {
+    "text": "The passages do not specify Amazon's geographic revenue exposures or describe year-over-year changes in those exposures.",
+    "sources": [
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 51,
+      "chunk_id": "AMZN_2025-12-31_p051_1",
+      "shown": "Amazon 10-K FY2025 | Financial Statements and Supplementary Data | page 51\n…Unearned revenue is recorded when payments are received or due in advance of performing our service obligations and is recognized over the service period. Unearned revenue primarily relates to prepayments of AWS services and Amazon Prime memberships. Our total unearned revenue as of December 31, 2024 was $24.6 billion, of which $17.4 billion was recognized as revenue during the year ended December 31, 2025 and our total unearned revenue as of December 31, 2025 was $25.0 billion. Included in “Other long-term liabilities” on our consolidated balance sheets was $6.5 billion and $4.4 billion of unearned revenue as of December 31, 2024 and 2025.\nAdditionally, we have performance obligations, primarily related to AWS, associated with commitments in customer contracts for future services that we expect to fulfill but have not yet been recognized in our financial statements. For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $244 billion as of December 31, 2025. The weighted average remaining life of our long-term contracts is 4.1 years. The amount and timing of revenue recognition will be driven by customer usage and our performance in accordance with contractual obligations, which can extend beyond the original contractual duration and commitment.…"
+     },
+     {
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 50,
+      "chunk_id": "AMZN_2024-12-31_p050_1",
+      "shown": "Amazon 10-K FY2024 | Financial Statements and Supplementary Data | page 50\n…Unearned Revenue\nUnearned revenue is recorded when payments are received or due in advance of performing our service obligations and is recognized over the service period. Unearned revenue primarily relates to prepayments of AWS services and Amazon Prime memberships. Our total unearned revenue as of December 31, 2023 was $20.9 billion, of which $14.2 billion was recognized as revenue during the year ended December 31, 2024 and our total unearned revenue as of December 31, 2024 was $24.6 billion. Included in “Other long-term liabilities” on our consolidated balance sheets was $5.7 billion and $6.5 billion of unearned revenue as of December 31, 2023 and 2024.\nAdditionally, we have performance obligations, primarily related to AWS, associated with commitments in customer contracts for future services that have not yet been recognized in our financial statements. For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $177 billion as of December 31, 2024. The weighted average remaining life of our long-term contracts is 4.1 years. However, the amount and timing of revenue recognition is largely driven by customer usage, which can extend beyond the original contractual term.\nOther Long-Term Liabilities…"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet reported total revenues of $307,394 million for EMEA, $51,514 million for APAC, and $18,320 million for Other Americas in fiscal year 2025.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1",
+      "shown": "Alphabet 10-K FY2025 | Financial Statements and Supplementary Data | page 60\n…EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29\nAPAC (1) | 51,514 | 17 | 56,815 | 16 | 67,680 | 17\nOther Americas (1) | 18,320 | 6 | 20,418 | 6 | 23,902 | 6\nHedging gains (losses) | 236 | 0 | 211 | 0 | ( 127 ) | 0\nTotal revenues | $307,394 | 100% | $350,018 | 100% | $402,836 | 100%\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\nRevenue Backlog\nAs of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.\nDeferred Revenues"
+     }
+    ]
+   },
+   {
+    "text": "The passages do not provide Alphabet's geographic revenue figures for fiscal year 2024 to allow a year-over-year comparison.",
+    "sources": [
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 60,
+      "chunk_id": "GOOGL_2025-12-31_p061_1",
+      "shown": "Alphabet 10-K FY2025 | Financial Statements and Supplementary Data | page 60\n…EMEA (1) | 91,038 | 30 | 102,127 | 29 | 117,152 | 29\nAPAC (1) | 51,514 | 17 | 56,815 | 16 | 67,680 | 17\nOther Americas (1) | 18,320 | 6 | 20,418 | 6 | 23,902 | 6\nHedging gains (losses) | 236 | 0 | 211 | 0 | ( 127 ) | 0\nTotal revenues | $307,394 | 100% | $350,018 | 100% | $402,836 | 100%\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\nRevenue Backlog\nAs of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.\nDeferred Revenues"
+     },
+     {
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "section": "Management's Discussion and Analysis",
+      "printed_page": 37,
+      "chunk_id": "GOOGL_2024-12-31_p038_1",
+      "shown": "Alphabet 10-K FY2024 | Management's Discussion and Analysis | page 37\n…Constant currency information compares results between periods as if exchange rates had remained constant period over period. We define constant currency revenues as revenues excluding the effect of foreign currency exchange rate movements (\"FX Effect\") as well as hedging activities, which are recognized at the consolidated level. We use constant currency revenues to determine the constant currency revenue percentage change on a year-on-year basis. Constant currency revenues are calculated by translating current period revenues using prior year comparable period exchange rates, as well as excluding any hedging effects realized in the current period.\nConstant currency revenue percentage change is calculated by determining the change in current period revenues over prior year comparable period revenues where current period foreign currency revenues are translated using prior year comparable period exchange rates and hedging effects are excluded from revenues of both periods."
+     }
+    ]
+   },
+   {
+    "text": "Revenue from sales to customers outside of the United States increased from 56% of total revenue in fiscal year 2024 to 53% in fiscal year 2025.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     },
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1",
+      "shown": "NVIDIA 10-K FY2024 | Exhibits and Financial Statement Schedules | page 79\n…(In millions)\nReconciling items included in \"All Other\" category:\nStock-based compensation expense | $( 3,549 ) | $( 2,710 ) | $( 2,004 )\nUnallocated cost of revenue and operating expenses | ( 728 ) | ( 595 ) | ( 399 )\nAcquisition-related and other costs | ( 583 ) | ( 674 ) | ( 636 )\nIP-related and legal settlement costs | ( 40 ) | ( 23 ) | ( 10 )\nRestructuring costs and other | — | ( 54 ) | —\nAcquisition termination cost | — | ( 1,353 ) | —\nOther | 10 | ( 2 ) | —\nTotal | $( 4,890 ) | $( 5,411 ) | $( 3,049 )\nRevenue by geographic areas is designated based upon the billing location of the customer. End customer location may be different than our customer’s billing location. Revenue by geographic areas was as follows:\nYear Ended\nJan 28, 2024 | Jan 29, 2023 | Jan 30, 2022\nRevenue: | (In millions)\nUnited States | $26,966 | $8,292 | $4,349\nTaiwan | 13,405 | 6,986 | 8,544\nChina (including Hong Kong) | 10,306 | 5,785 | 7,111\nOther countries | 10,245 | 5,911 | 6,910\nTotal revenue | $60,922 | $26,974 | $26,914\nRevenue from sales to customers outside of the United States accounted for 56%, 69%, and 84% of total revenue for fiscal years 2024, 2023, and 2022, respectively. The increase in revenue to the United States for fiscal year 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.…"
+     }
+    ]
+   },
+   {
+    "text": "The increase in U.S. revenue for both fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.",
+    "sources": [
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2025-01-26_p079_1",
+      "shown": "NVIDIA 10-K FY2025 | Exhibits and Financial Statement Schedules | page 79\n…Acquisition-related and other costs | ( 602 ) | ( 583 ) | ( 674 )\nAcquisition termination cost | — | — | ( 1,353 )\nOther | 3 | ( 30 ) | ( 79 )\nTotal | $( 6,507 ) | $( 4,890 ) | $( 5,411 )\nRevenue by geographic area is based upon the billing location of the customer. The end customer and shipping location may be different from our customer’s billing location.\nYear Ended\nJan 26, 2025 | Jan 28, 2024 | Jan 29, 2023\nGeographic Revenue based upon Customer Billing Location: | (In millions)\nUnited States | $61,257 | $26,966 | $8,292\nSingapore (1) | 23,684 | 6,831 | 2,288\nTaiwan | 20,573 | 13,405 | 6,986\nChina (including Hong Kong) | 17,108 | 10,306 | 5,785\nOther | 7,875 | 3,414 | 3,623\nTotal revenue | $130,497 | $60,922 | $26,974\n(1) Singapore represented 18% of fiscal year 2025 total revenue based upon customer billing location. Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere. Shipments to Singapore were less than 2% of fiscal year 2025 total revenue.\nRevenue from sales to customers outside of the United States accounted for 53%, 56%, and 69% of total revenue for fiscal years 2025, 2024, and 2023, respectively. The increase in revenue to the United States for fiscal years 2025 and 2024 was primarily due to higher U.S.-based Compute & Networking segment demand."
+     },
+     {
+      "ticker": "NVDA",
+      "fiscal_year": 2024,
+      "section": "Exhibits and Financial Statement Schedules",
+      "printed_page": 79,
+      "chunk_id": "NVDA_2024-01-28_p079_1",
+      "shown": "NVIDIA 10-K FY2024 | Exhibits and Financial Statement Schedules | page 79\n…(In millions)\nReconciling items included in \"All Other\" category:\nStock-based compensation expense | $( 3,549 ) | $( 2,710 ) | $( 2,004 )\nUnallocated cost of revenue and operating expenses | ( 728 ) | ( 595 ) | ( 399 )\nAcquisition-related and other costs | ( 583 ) | ( 674 ) | ( 636 )\nIP-related and legal settlement costs | ( 40 ) | ( 23 ) | ( 10 )\nRestructuring costs and other | — | ( 54 ) | —\nAcquisition termination cost | — | ( 1,353 ) | —\nOther | 10 | ( 2 ) | —\nTotal | $( 4,890 ) | $( 5,411 ) | $( 3,049 )\nRevenue by geographic areas is designated based upon the billing location of the customer. End customer location may be different than our customer’s billing location. Revenue by geographic areas was as follows:\nYear Ended\nJan 28, 2024 | Jan 29, 2023 | Jan 30, 2022\nRevenue: | (In millions)\nUnited States | $26,966 | $8,292 | $4,349\nTaiwan | 13,405 | 6,986 | 8,544\nChina (including Hong Kong) | 10,306 | 5,785 | 7,111\nOther countries | 10,245 | 5,911 | 6,910\nTotal revenue | $60,922 | $26,974 | $26,914\nRevenue from sales to customers outside of the United States accounted for 56%, 69%, and 84% of total revenue for fiscal years 2024, 2023, and 2022, respectively. The increase in revenue to the United States for fiscal year 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.…"
+     }
+    ]
+   },
+   {
+    "text": "Microsoft's passages describe revenue recognition principles but do not contain specific geographic revenue data or year-over-year changes in geographic exposures.",
+    "sources": [
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 56,
+      "chunk_id": "MSFT_2025-06-30_p056_1",
+      "shown": "Microsoft 10-K FY2025 | Financial Statements and Supplementary Data | page 56\n…Revenue is recognized upon transfer of control of promised products or services to customers in an amount that reflects the consideration we expect to receive in exchange for those products or services. We enter into contracts that can include various combinations of products and services, which are generally capable of being distinct and accounted for as separate performance obligations. Revenue is recognized net of allowances for returns and any taxes collected from customers, which are subsequently remitted to governmental authorities.\nNature of Products and Services\nLicenses for on-premises software provide the customer with a right to use the software as it exists when made available to the customer. Customers may purchase perpetual licenses or subscribe to licenses, which provide customers with the same functionality and differ mainly in the duration over which the customer benefits from the software. Revenue from distinct on-premises licenses is recognized upfront at the point in time when the software is made available to the customer. In cases where we allocate revenue to software updates, primarily because the updates are provided at no additional charge, revenue is recognized as the updates are provided, which is generally ratably over the estimated life of the related device or license.…"
+     },
+     {
+      "ticker": "MSFT",
+      "fiscal_year": 2024,
+      "section": "Financial Statements and Supplementary Data",
+      "printed_page": 62,
+      "chunk_id": "MSFT_2024-06-30_p062_1",
+      "shown": "Microsoft 10-K FY2024 | Financial Statements and Supplementary Data | page 62\n…Revenue is recognized upon transfer of control of promised products or services to customers in an amount that reflects the consideration we expect to receive in exchange for those products or services. We enter into contracts that can include various combinations of products and services, which are generally capable of being distinct and accounted for as separate performance obligations. Revenue is recognized net of allowances for returns and any taxes collected from customers, which are subsequently remitted to governmental authorities.\nNature of Products and Services\nLicenses for on-premises software provide the customer with a right to use the software as it exists when made available to the customer. Customers may purchase perpetual licenses or subscribe to licenses, which provide customers with the same functionality and differ mainly in the duration over which the customer benefits from the software. Revenue from distinct on-premises licenses is recognized upfront at the point in time when the software is made available to the customer. In cases where we allocate revenue to software updates, primarily because the updates are provided at no additional charge, revenue is recognized as the updates are provided, which is generally ratably over the estimated life of the related device or license.…"
+     }
+    ]
+   }
+  ],
+  "limitations": "The provided passages lack specific year-over-year figures for Apple's and Alphabet's geographic revenues to confirm increases or decreases. The passages also do not contain geographic revenue breakdowns for Amazon or Microsoft.",
+  "dropped": [
+   {
+    "text": "Apple's geographic net sales for fiscal year 2024 were $178,353 million in the Americas, $111,032 million in Europe, $64,377 million in Greater China, $28,703 million in Japan, and $33,696 million in the Rest of Asia Pacific.",
+    "reason": "numbers not in cited passage: 111032, 178353, 28703, 33696, 64377"
+   },
+   {
+    "text": "NVIDIA reported revenue of $130,497 million from the United States and $82,000 million (calculated as Total minus US) from outside the United States for fiscal year 2025.",
+    "reason": "numbers not in cited passage: 82000"
+   },
+   {
+    "text": "NVIDIA reported revenue of $60,922 million from the United States and $33,956 million (calculated as Total minus US) from outside the United States for fiscal year 2024.",
+    "reason": "numbers not in cited passage: 33956"
+   }
+  ],
+  "model": "qwen3.5:4b",
+  "seconds_model": 382,
+  "prompt_tokens": 4272
+ }
+]

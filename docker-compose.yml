@@ -1,0 +1,26 @@
+# Local Postgres + pgvector for FilingFinder (free, runs on this machine).
+# Start: docker compose up -d     Stop: docker compose down
+# Settings come from .env (see .env.example).
+services:
+  db:
+    image: pgvector/pgvector:0.8.0-pg16
+    container_name: filingfinder-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-filingfinder}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-filingfinder}
+    ports:
+      - "127.0.0.1:5432:5432"   # only reachable from this computer
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # runs once, the first time the database is created
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-filingfinder} -d ${POSTGRES_DB:-filingfinder}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  pgdata:
