@@ -104,6 +104,30 @@ def format_answer(a, show_passages=False):
     return "\n".join(lines)
 
 
+def to_dict(a):
+    """The answer as plain JSON, for the web app."""
+    sources = []
+    for n, (p, shown) in enumerate(a.sources, start=1):
+        sources.append({
+            "number": n, "citation": p.citation(), "company": p.company, "ticker": p.ticker,
+            "fiscal_year": p.fiscal_year, "section": p.section_name, "page": p.page,
+            "printed_page": p.printed_page, "source_url": p.source_url,
+            # the exact text the model saw, without the header line
+            "passage": shown.split("\n", 1)[1] if "\n" in shown else shown,
+        })
+    return {
+        "question": a.question, "status": a.status, "message": a.message,
+        "sentences": [{"text": t, "citations": cites} for t, cites in a.sentences],
+        "sources": sources,
+        "limitations": a.limitations,
+        "missing": [{"ticker": t, "fiscal_year": y} for t, y in a.missing],
+        "removed": [{"text": t, "reason": why} for t, why in a.dropped],
+        "model": a.model,
+        "seconds_search": round(a.seconds_search, 1),
+        "seconds_model": round(a.seconds_model),
+    }
+
+
 def main():
     ap = argparse.ArgumentParser(description="Answer a question from the 10-K filings.")
     ap.add_argument("question")

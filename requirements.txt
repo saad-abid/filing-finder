@@ -9,3 +9,7 @@ sentence-transformers
 psycopg[binary]
 pgvector
 pytest
+# Phase 6: web server
+fastapi
+uvicorn[standard]
+httpx
