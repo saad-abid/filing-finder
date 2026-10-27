@@ -67,8 +67,8 @@ A wrong but confident answer is worse than no answer.
 | 3 | Embeddings, Postgres + pgvector, hybrid search | Done |
 | 4 | Cited answers with a local model and a safety check | Done |
 | 5 | Evaluation: are the answers and citations correct? | Done |
-| 6 | User interface: simple chat web app (React) | Next |
-| 7 | Simple deployment and README | Planned |
+| 6 | User interface: simple chat web app (React) | Done |
+| 7 | Simple deployment and README | Done |
 
 ## 8. Keep it simple
 

@@ -23,7 +23,8 @@ function Progress({ entry }) {
 }
 
 function Citations({ numbers, sources, onOpenSource, openSource }) {
-  return numbers.map((n) => {
+  // Kept in one non-wrapping group so "[1][2][3]" never splits across lines.
+  return <span className="cites">{numbers.map((n) => {
     const source = sources.find((s) => s.number === n);
     const active = openSource && source && openSource === source;
     return (
@@ -37,7 +38,7 @@ function Citations({ numbers, sources, onOpenSource, openSource }) {
         {n}
       </button>
     );
-  });
+  })}</span>;
 }
 
 function Answer({ answer, onOpenSource, openSource }) {
