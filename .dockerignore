@@ -1,0 +1,16 @@
+# Keep secrets, data and local tools out of the image (and the build fast).
+.env
+.git
+.venv
+__pycache__/
+**/__pycache__
+*.pyc
+data/
+docs/
+tests/
+eval/results/
+web/node_modules/
+web/dist/
+web/.vite/
+claude.md
+CLAUDE.md
