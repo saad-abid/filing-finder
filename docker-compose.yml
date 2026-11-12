@@ -22,5 +22,33 @@ services:
       retries: 10
     restart: unless-stopped
 
+  # The FilingFinder app (Python server + web page), built from the Dockerfile.
+  # It is in the "app" profile, so plain `docker compose up -d` still starts only
+  # the database (what start.ps1 uses). Start the app too with:
+  #   docker compose --profile app up -d --build
+  app:
+    profiles: ["app"]
+    build: .
+    image: filingfinder-app
+    container_name: filingfinder-app
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      # Inside Docker the database is reached by its service name, "db".
+      DATABASE_URL: postgresql://${POSTGRES_USER:-filingfinder}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-filingfinder}
+      # Ollama runs on this computer, outside Docker.
+      OLLAMA_URL: http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"   # makes the name work on Linux too
+    ports:
+      - "127.0.0.1:8000:8000"   # only reachable from this computer
+    volumes:
+      - hfcache:/home/app/.cache/huggingface   # search model, downloaded once
+      - ./data:/app/data                        # filings, for the download/index steps
+    restart: unless-stopped
+
 volumes:
   pgdata:
+  hfcache:

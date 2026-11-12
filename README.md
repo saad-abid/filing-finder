@@ -117,6 +117,40 @@ python -m uvicorn src.api.app:app --port 8000
 While editing the page, also run `npm run dev` in `web/` and open http://localhost:5173.
 </details>
 
+## Run with Docker
+
+The whole app (Python server and web page) also runs as a Docker container, so the machine
+needs only **Docker Desktop** and **Ollama**: no Python or Node.js. Ollama stays outside Docker;
+the container reaches it at `host.docker.internal`.
+
+```powershell
+copy .env.example .env                      # set SEC_USER_AGENT and a password
+ollama pull qwen3.5:4b
+docker compose --profile app up -d --build  # first build takes 10-20 minutes
+```
+
+Open **http://localhost:8000**. The first question also downloads the search model (about
+600 MB) into a Docker volume, once.
+
+On a fresh machine the database starts empty. Fill it once, inside the container:
+
+```powershell
+docker compose --profile app run --rm app python src/ingestion/download_filings.py
+docker compose --profile app run --rm app python src/parsing/parse_filings.py
+docker compose --profile app run --rm app python -m src.indexing.build_index   # ~1.5 hours
+```
+
+Useful commands:
+
+```powershell
+docker compose --profile app logs -f app   # follow the app's messages (Ctrl+C stops following)
+docker compose --profile app down          # stop everything; the data is kept
+```
+
+Never add `-v` to `down`: it deletes the database volume. Use either Docker or `start.ps1`
+at a time, since both serve on port 8000. The image is built from the `Dockerfile` with
+exact package versions from `requirements-lock.txt`.
+
 ## Command-line tools
 
 ```powershell
@@ -143,6 +177,7 @@ web/           React chat page (Vite)
 eval/          test questions, correct figures, saved runs
 db/schema.sql  database table and indexes
 tests/         pytest suite
+Dockerfile, docker-compose.yml   app image (two stages) + database and app services
 ```
 
 ## Limitations
